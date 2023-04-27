@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 6.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-new1.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-new1.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"culizn.cn","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":false,"style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"livere","storage":null,"lazyload":false,"nav":null,"activeClass":"livere"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="欢迎来到我的个人博客，由于急于上线，目前博客还有很多不足（基本只是框架），不过我会逐步修改到位的。————Cu.Li.Zn 测试用：我的博客首页链接： 未择之所 2023年3月29日更新日志：增加网站个性化logo（本人设计，逐渐优化中） 2023年3月30日更新日志：增加背景图片：艾文在时空回廊？（来自漫画《猫箱反转》的美图）开启盘古UI(据说会更美观，但是我没看出来)去除网站底部驱动字样去除默">
+<meta property="og:type" content="article">
+<meta property="og:title" content="网站目前正在不断修改中，敬请期待">
+<meta property="og:url" content="https://culizn.cn/2022/03/30/A-0001/index.html">
+<meta property="og:site_name" content="未择之所">
+<meta property="og:description" content="欢迎来到我的个人博客，由于急于上线，目前博客还有很多不足（基本只是框架），不过我会逐步修改到位的。————Cu.Li.Zn 测试用：我的博客首页链接： 未择之所 2023年3月29日更新日志：增加网站个性化logo（本人设计，逐渐优化中） 2023年3月30日更新日志：增加背景图片：艾文在时空回廊？（来自漫画《猫箱反转》的美图）开启盘古UI(据说会更美观，但是我没看出来)去除网站底部驱动字样去除默">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2022-03-30T14:31:00.000Z">
+<meta property="article:modified_time" content="2023-04-27T17:20:56.723Z">
+<meta property="article:author" content="Cu.Li.Zn">
+<meta property="article:tag" content="Blogs">
+<meta property="article:tag" content="博客">
+<meta property="article:tag" content="Hexo">
+<meta property="article:tag" content="Try">
+<meta property="article:tag" content="尝试">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="https://culizn.cn/2022/03/30/A-0001/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>网站目前正在不断修改中，敬请期待 | 未择之所</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">未择之所</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://culizn.cn/2022/03/30/A-0001/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/for.png">
+      <meta itemprop="name" content="Cu.Li.Zn">
+      <meta itemprop="description" content="我所未见，方为绝景">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="未择之所">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          网站目前正在不断修改中，敬请期待
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2022-03-30 22:31:00" itemprop="dateCreated datePublished" datetime="2022-03-30T22:31:00+08:00">2022-03-30</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2023-04-28 01:20:56" itemprop="dateModified" datetime="2023-04-28T01:20:56+08:00">2023-04-28</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Logs/" itemprop="url" rel="index"><span itemprop="name">Logs</span></a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Logs/%E6%97%A5%E5%BF%97/" itemprop="url" rel="index"><span itemprop="name">日志</span></a>
+                </span>
+            </span>
+
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span><br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>2.3k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>2 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>欢迎来到我的个人博客，由于急于上线，目前博客还有很多不足（基本只是框架），不过我会逐步修改到位的。<br>————Cu.Li.Zn</p>
+<p>测试用：<br>我的博客首页链接： <a href="https://culizn.cn/">未择之所</a></p>
+<h3 id="2023年3月29日更新日志："><a href="#2023年3月29日更新日志：" class="headerlink" title="2023年3月29日更新日志："></a>2023年3月29日更新日志：</h3><p>增加网站个性化logo（本人设计，逐渐优化中）</p>
+<h3 id="2023年3月30日更新日志："><a href="#2023年3月30日更新日志：" class="headerlink" title="2023年3月30日更新日志："></a>2023年3月30日更新日志：</h3><p>增加背景图片：艾文在时空回廊？（来自漫画《猫箱反转》的美图）<br>开启盘古UI(据说会更美观，但是我没看出来)<br>去除网站底部驱动字样<br>去除默认初始文章：hello world.md<br>修改错别字（x<br>解决每次push后要重新绑定域名的问题（主要是懒才拖到现在）<br>为本更新文章设置了标签和分类（可以自行查看）<br>书写了简短的关于页面（按我的风格最终可能变得相当冗长，所以目前可以看作实验性的初次测试）<br>目前明显存在的问题如部分页面还无指向或者其他等等，将在接下来的更新中完成（希望如此）<br>晚安。  </p>
+<h3 id="2023年3月31日更新日志："><a href="#2023年3月31日更新日志：" class="headerlink" title="2023年3月31日更新日志："></a>2023年3月31日更新日志：</h3><p>修改网站个性化logo<br>增加本人Github链接  </p>
+<h3 id="2023年4月5日血泪记忆："><a href="#2023年4月5日血泪记忆：" class="headerlink" title="2023年4月5日血泪记忆："></a>2023年4月5日血泪记忆：</h3><p>不要一口气改很多设定不测试预览，出现了一个问题你甚至不知道到底哪里有问题<br>记录：由于设置post-block 透明度为0，而jquery库似乎有问题（搜查半天找到了相关求助）  </p>
+<h3 id="2023年4月6日更新日志："><a href="#2023年4月6日更新日志：" class="headerlink" title="2023年4月6日更新日志："></a>2023年4月6日更新日志：</h3><p>多次调整后，虽然解决了页面文字不显示（透明度为0）的问题，但是头像和社交图标消失了（悲<br><strong>最后，决定推翻重来</strong><br><strong>从零开始的主题修改，重新克隆了NEXT主题的文件</strong><br>1、修改了UI为Gemini<br>2、开启分类、标签、关于、归档<br>3、增加头像Drinking<br>4、设置圆形头像框<br>5、设置github链接\设置只显示图标<br>6、设置背景图片  </p>
+<p>到此基本完成初步设置<br>未来的计划是增加评论系统、文章字数统计和推荐阅读等<br>啊，忘了logo了<br>（明天再说</p>
+<h3 id="2023年4月7日更新日志"><a href="#2023年4月7日更新日志" class="headerlink" title="2023年4月7日更新日志"></a>2023年4月7日更新日志</h3><p>1、增加logo<br>2、增加访客统计和阅读次数统计<br>3、增加阅读进度显示<br>4、修改代码样式为预设solarized<br>5、将回到顶部按钮放在侧边栏，并显示阅读百分比<br>6、在更新日志开头添加了本博客首页链接<br>7、修改文章链接默认颜色为蓝色  </p>
+<p>因为准备追求一下本人的幸运数之一7所以今天就到这里了<br>接下来的计划有版权声明、评论系统、推荐阅读、鼠标图标等<br>怎么画的饼和昨天没差多少（难的、麻烦的都留下来了）</p>
+<p>补充，本地安装了markdownpad2，但是根据使用体验来说，我可能还是会主要用vscode直接手搓文章，因为即时书写感挺好的，而且页面也清爽，可能过一阵子要插入数学公式的文章部分会用markdownpad2来写。</p>
+<h3 id="2023年4月10日更新日志"><a href="#2023年4月10日更新日志" class="headerlink" title="2023年4月10日更新日志"></a>2023年4月10日更新日志</h3><p>1、修改页面卡片为圆角<br>2、增加文章末尾版权说明<br>3、增加文章字数统计和阅读时长估算  </p>
+<h3 id="2023年4月11日更新日志"><a href="#2023年4月11日更新日志" class="headerlink" title="2023年4月11日更新日志"></a>2023年4月11日更新日志</h3><p>修改版权说明的文章链接为本域名（昨天没注意到这个问题  </p>
+<h3 id="2023年4月14日更新日志"><a href="#2023年4月14日更新日志" class="headerlink" title="2023年4月14日更新日志"></a>2023年4月14日更新日志</h3><p>1、增加文末“本文结束标志”  </p>
+<h3 id="2023年4月16日更新日志"><a href="#2023年4月16日更新日志" class="headerlink" title="2023年4月16日更新日志"></a>2023年4月16日更新日志</h3><p>1、更换头像为自己绘画一幅<br>2、修改头像边框为方形<br>3、增加头像转动功能<br>4、修改回到顶部按钮独立<br>5、社交链接显示网站名<br>6、增加本地搜索功能（在侧边栏）<br>7、增加代码块复制功能并修改为mac样式<br>8、增加鼠标点击样式</p>
+<h3 id="2023年4月25日更新日志"><a href="#2023年4月25日更新日志" class="headerlink" title="2023年4月25日更新日志"></a>2023年4月25日更新日志</h3><p>修改头像图像周边为圆角，以此适应整体风格</p>
+<h3 id="2023年4月28日更新日志"><a href="#2023年4月28日更新日志" class="headerlink" title="2023年4月28日更新日志"></a>2023年4月28日更新日志</h3><p>1、增加来必力评论功能（本来是准备搞gitalk的，但是一定要github账户感觉太严苛了喵）<br>2、</p>
+<h2 id="仍在调试，敬请期待"><a href="#仍在调试，敬请期待" class="headerlink" title="仍在调试，敬请期待"></a>仍在调试，敬请期待</h2><p>另附：代码块的样式</p>
+<h4 id="C-的样式"><a href="#C-的样式" class="headerlink" title="C++的样式"></a>C++的样式</h4><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">cout&lt;&lt;<span class="string">&quot;hello everyone&quot;</span>&lt;&lt;endl; <span class="comment">//cpp的样式</span></span><br><span class="line"><span class="comment">//下面是随便翻出来的习题代码</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">int</span> a[<span class="number">15</span>][<span class="number">15</span>],b[<span class="number">15</span>][<span class="number">15</span>];</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> n;</span><br><span class="line">    cin&gt;&gt;n;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">     <span class="keyword">for</span>(<span class="type">int</span> j=<span class="number">1</span>;j&lt;=n;j++)</span><br><span class="line">      cin&gt;&gt;a[i][j];</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">       <span class="keyword">for</span>(<span class="type">int</span> j=<span class="number">1</span>;j&lt;=n;j++)</span><br><span class="line">          b[j][n-i+<span class="number">1</span>]=a[i][j];</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>;i&lt;=n;i++)&#123;</span><br><span class="line">       <span class="keyword">for</span>(<span class="type">int</span> j=<span class="number">1</span>;j&lt;=n;j++)</span><br><span class="line">         cout&lt;&lt;b[i][j]&lt;&lt;<span class="string">&#x27; &#x27;</span>;</span><br><span class="line">         cout&lt;&lt;endl;</span><br><span class="line">         &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="python的样式"><a href="#python的样式" class="headerlink" title="python的样式"></a>python的样式</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;here is my blog&quot;</span>) <span class="comment">#python 的样式</span></span><br><span class="line"><span class="comment">#下面是随便翻出来的习题代码</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Good_student</span>:</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">add</span>(<span class="params">self, a, b</span>):</span><br><span class="line">        <span class="keyword">return</span> a+b</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">multiplicate</span>(<span class="params">self, a, b</span>):</span><br><span class="line">        <span class="keyword">return</span> a*b</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Bad_student</span>:</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">add</span>(<span class="params">self, a, b</span>):</span><br><span class="line">        <span class="keyword">return</span> a-b</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">multiplicate</span>(<span class="params">self, a, b</span>):</span><br><span class="line">        <span class="keyword">return</span> a/b</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">algo</span>(<span class="params">good_student, a, b</span>):</span><br><span class="line">    <span class="built_in">print</span>(good_student.add(a, b))</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;%.2f&quot;</span> % good_student.multiplicate(a, b))</span><br><span class="line"></span><br><span class="line">a = Good_student()</span><br><span class="line">b = Bad_student()</span><br><span class="line">x = <span class="built_in">int</span>(<span class="built_in">input</span>())</span><br><span class="line">y = <span class="built_in">int</span>(<span class="built_in">input</span>())</span><br><span class="line"></span><br><span class="line">algo(a, x, y)</span><br><span class="line">algo(b, x, y)</span><br></pre></td></tr></table></figure>
+
+    </div>
+
+    
+    
+    
+        
+
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>Cu.Li.Zn
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="https://culizn.cn/2022/03/30/A-0001/" title="网站目前正在不断修改中，敬请期待">https://culizn.cn/2022/03/30/A-0001/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/Blogs/" rel="tag"># Blogs</a>
+              <a href="/tags/%E5%8D%9A%E5%AE%A2/" rel="tag"># 博客</a>
+              <a href="/tags/Hexo/" rel="tag"># Hexo</a>
+              <a href="/tags/Try/" rel="tag"># Try</a>
+              <a href="/tags/%E5%B0%9D%E8%AF%95/" rel="tag"># 尝试</a>
+          </div>
+
+        
+
+
+        
+      </footer>
+    
+    
+  </article>
+   
+   <div>
+     <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">
+              -------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------
+        </div>
+    
+</div>
+   </div>
+  
+  
+  
+  
+
+
+
+          </div>
+          
+    
+  <div class="comments">
+    <div id="lv-container" data-id="city" data-uid="MTAyMC81ODQxNy8zNDg4MA"></div>
+  </div>
+  
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#2023%E5%B9%B43%E6%9C%8829%E6%97%A5%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97%EF%BC%9A"><span class="nav-number">1.</span> <span class="nav-text">2023年3月29日更新日志：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2023%E5%B9%B43%E6%9C%8830%E6%97%A5%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97%EF%BC%9A"><span class="nav-number">2.</span> <span class="nav-text">2023年3月30日更新日志：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2023%E5%B9%B43%E6%9C%8831%E6%97%A5%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97%EF%BC%9A"><span class="nav-number">3.</span> <span class="nav-text">2023年3月31日更新日志：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2023%E5%B9%B44%E6%9C%885%E6%97%A5%E8%A1%80%E6%B3%AA%E8%AE%B0%E5%BF%86%EF%BC%9A"><span class="nav-number">4.</span> <span class="nav-text">2023年4月5日血泪记忆：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2023%E5%B9%B44%E6%9C%886%E6%97%A5%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97%EF%BC%9A"><span class="nav-number">5.</span> <span class="nav-text">2023年4月6日更新日志：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2023%E5%B9%B44%E6%9C%887%E6%97%A5%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97"><span class="nav-number">6.</span> <span class="nav-text">2023年4月7日更新日志</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2023%E5%B9%B44%E6%9C%8810%E6%97%A5%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97"><span class="nav-number">7.</span> <span class="nav-text">2023年4月10日更新日志</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2023%E5%B9%B44%E6%9C%8811%E6%97%A5%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97"><span class="nav-number">8.</span> <span class="nav-text">2023年4月11日更新日志</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2023%E5%B9%B44%E6%9C%8814%E6%97%A5%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97"><span class="nav-number">9.</span> <span class="nav-text">2023年4月14日更新日志</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2023%E5%B9%B44%E6%9C%8816%E6%97%A5%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97"><span class="nav-number">10.</span> <span class="nav-text">2023年4月16日更新日志</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2023%E5%B9%B44%E6%9C%8825%E6%97%A5%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97"><span class="nav-number">11.</span> <span class="nav-text">2023年4月25日更新日志</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2023%E5%B9%B44%E6%9C%8828%E6%97%A5%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97"><span class="nav-number">12.</span> <span class="nav-text">2023年4月28日更新日志</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BB%8D%E5%9C%A8%E8%B0%83%E8%AF%95%EF%BC%8C%E6%95%AC%E8%AF%B7%E6%9C%9F%E5%BE%85"><span class="nav-number"></span> <span class="nav-text">仍在调试，敬请期待</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#C-%E7%9A%84%E6%A0%B7%E5%BC%8F"><span class="nav-number">0.1.</span> <span class="nav-text">C++的样式</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#python%E7%9A%84%E6%A0%B7%E5%BC%8F"><span class="nav-number">0.2.</span> <span class="nav-text">python的样式</span></a></li></ol></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Cu.Li.Zn"
+      src="/images/for.png">
+  <p class="site-author-name" itemprop="name">Cu.Li.Zn</p>
+  <div class="site-description" itemprop="description">我所未见，方为绝景</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">1</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/egisim" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;egisim" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2023</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Cu.Li.Zn</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-area"></i>
+    </span>
+    <span title="站点总字数">2k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    <span title="站点阅读时长">2 分钟</span>
+</div>
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+  
+
+<script>
+NexT.utils.loadComments(document.querySelector('#lv-container'), () => {
+  window.livereOptions = {
+    refer: location.pathname.replace(CONFIG.root, '').replace('index.html', '')
+  };
+  (function(d, s) {
+    var j, e = d.getElementsByTagName(s)[0];
+    if (typeof LivereTower === 'function') { return; }
+    j = d.createElement(s);
+    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+    j.async = true;
+    e.parentNode.insertBefore(j, e);
+  })(document, 'script');
+});
+</script>
+
+  
+   <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas> 
+   <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
+   <script type="text/javascript" src="/js/fireworks.js"></script>
+  
+
+</body>
+</html>
+
+
