@@ -40,6 +40,31 @@
       </tags>
   </entry>
   <entry>
+    <title>vscode相对路径报错原因</title>
+    <url>/2023/05/04/E-0001/</url>
+    <content><![CDATA[<h1 id="情况"><a href="#情况" class="headerlink" title="情况"></a>情况</h1><p>今天在vscode用python尝试opencv库基础操作——调用图片并打开时，发生了相对路径不断报错，但绝对路径可以直接打开的情况。<br>前提：vscode打开的文件夹是pythons</p>
+<p>绝对路径代码如下：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> cv2</span><br><span class="line">img = cv2.imread(<span class="string">&#x27;E:/pythons/cvdeal/datas/orig/2092.png&#x27;</span>,<span class="number">0</span>)</span><br><span class="line">cv2.imshow(<span class="string">&#x27;2092&#x27;</span>,img)</span><br><span class="line">cv2.waitKey(<span class="number">0</span>)</span><br></pre></td></tr></table></figure>
+
+<p>出错的相对路径代码如下：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> cv2</span><br><span class="line">img = cv2.imread(<span class="string">&#x27;./datas/orig/2092.png&#x27;</span>,<span class="number">0</span>) <span class="comment">#灰度打开 #./代表省略前面文件夹的路径</span></span><br><span class="line">cv2.imshow(<span class="string">&#x27;2092&#x27;</span>,img)</span><br><span class="line">cv2.waitKey(<span class="number">0</span>)</span><br></pre></td></tr></table></figure>
+
+<h1 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h1><p>vscode中，默认的同级文件夹是“打开”的文件夹，而不是执行文件所处的当前文件夹。<br>也就是说，当vscode打开了我的文件夹”E:&#x2F;pythons&#x2F;“，而我执行的文件处于”pythons”文件夹下的文件夹”cvdeal”时，相对路径的书写应该写为’.&#x2F;cvdeal&#x2F;datas&#x2F;orig&#x2F;2092.png’</p>
+<h1 id="修改后代码形式"><a href="#修改后代码形式" class="headerlink" title="修改后代码形式"></a>修改后代码形式</h1><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> cv2</span><br><span class="line">img = cv2.imread(<span class="string">&#x27;./cvdeal/datas/orig/2092.png&#x27;</span>,<span class="number">0</span>) <span class="comment">#灰度打开</span></span><br><span class="line">cv2.imshow(<span class="string">&#x27;2092&#x27;</span>,img)</span><br><span class="line">cv2.waitKey(<span class="number">0</span>)</span><br></pre></td></tr></table></figure>
+
+<h1 id="其他修改方式-（推荐）"><a href="#其他修改方式-（推荐）" class="headerlink" title="其他修改方式 （推荐）"></a>其他修改方式 （推荐）</h1><p>建议直接打开目前处理的文件夹，不要打开它的父文件夹（认真）。<br>这样总体方便，而且方便代码的迁移运用。</p>
+<h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><p>更改正确后，我才想起之前在其他问题的编程中好像也有过这个问题，但是当时解决完很快又忘了（不长记性……），所以特此记录，也希望可以帮到其他遇到此问题的人。</p>
+<p>2023年5月4日_Cu.Li.Zn</p>
+]]></content>
+      <categories>
+        <category>基础报错处理</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>vscode</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>《四书章句集注》读书笔记——《大学》篇第一部分</title>
     <url>/2023/05/02/B-0001/</url>
     <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言:"></a>前言:</h1><p>这里是我近期参加学校阅读课程的读书笔记和闲杂回答，不能完全代表本人观点，只是一些当时书写时的思考和文字记录。<br>其中问题，是学校老师提出，以让学生解答的。特此简要说明。<br>这些文字，可能会过些时日分批整理放出。用于填补我的博客内容。</p>
