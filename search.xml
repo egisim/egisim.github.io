@@ -42,7 +42,7 @@
   <entry>
     <title>vscode相对路径报错原因</title>
     <url>/2023/05/04/E-0001/</url>
-    <content><![CDATA[<h1 id="情况"><a href="#情况" class="headerlink" title="情况"></a>情况</h1><p>今天在vscode用python尝试opencv库基础操作——调用图片并打开时，发生了相对路径不断报错，但绝对路径可以直接打开的情况。<br>前提：vscode打开的文件夹是pythons</p>
+    <content><![CDATA[<h1 id="情况"><a href="#情况" class="headerlink" title="情况"></a>情况</h1><p>今天在vscode用python尝试opencv库基础操作——调用图片并打开时，发生了相对路径不断报错，但绝对路径可以直接打开的情况。<br>前提：vscode打开的文件夹是pythons<br>&lt;! – more – &gt;</p>
 <p>绝对路径代码如下：</p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> cv2</span><br><span class="line">img = cv2.imread(<span class="string">&#x27;E:/pythons/cvdeal/datas/orig/2092.png&#x27;</span>,<span class="number">0</span>)</span><br><span class="line">cv2.imshow(<span class="string">&#x27;2092&#x27;</span>,img)</span><br><span class="line">cv2.waitKey(<span class="number">0</span>)</span><br></pre></td></tr></table></figure>
 
