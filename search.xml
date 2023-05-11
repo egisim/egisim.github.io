@@ -41,6 +41,31 @@
       </tags>
   </entry>
   <entry>
+    <title>为已经配置过python的vscode配置anaconda</title>
+    <url>/2023/05/11/E-0002/</url>
+    <content><![CDATA[<h1 id="情况"><a href="#情况" class="headerlink" title="情况"></a>情况</h1><p>下载了anaconda,在vscode已经配置过python相关插件的情况下，修改其中python源为anaconda中自带的python,以便使用其中库。</p>
+<span id="more"></span>
+<p>前提：anaconda已经正确下载在电脑上，我使用的是官网最新源（2023.03）;vscode已经配置过必要python编程插件<br>在这种情况下，虽然已经为anaconda配置了环境变量，但是vscode中不能使用anaconda.</p>
+<h1 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h1><p>vscode中，在之前的配置中已经将python编辑器默认指向电脑上原本下载版本的python</p>
+<h1 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h1><p>1、在vscode界面中，在上方搜索框中（也可以由Ctrl+Shift+p唤起）输入</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt; select interpreter</span><br></pre></td></tr></table></figure>
+<p>出现如下情况<br><img src="https://z4a.net/images/2023/05/11/python.png"/></p>
+<p>此时，点选第一个选项,出现如下选择<br><img src="https://z4a.net/images/2023/05/11/16ada08e8d85207fcdc0bf382ec3df98.png"/><br>选择你所下载的anaconda包中的python即可</p>
+<h1 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h1><p><a href="https://blog.csdn.net/qq_51831335/article/details/126757014">CSDN:全网最简约的Vscode配置Anaconda环境（百分百成功）
+</a></p>
+<p>2023年5月11日_Cu.Li.Zn_整理发送</p>
+]]></content>
+      <categories>
+        <category>软件配置</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>vscode</tag>
+        <tag>vscode配置</tag>
+        <tag>编程相关</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>《四书章句集注》读书笔记——《中庸》篇第一部分</title>
     <url>/2023/05/10/B-0005/</url>
     <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言:"></a>前言:</h1><p>这里是我近期参加学校阅读课程的读书笔记和闲杂回答，<strong>不能完全代表</strong>本人观点，只是一些当时书写时的思考和文字记录。<br>其中问题，是学校老师提出，以让学生解答的。特此简要说明。<br>这些文字，可能会过些时日分批整理放出。用于填补我的博客内容。</p>
@@ -161,8 +186,8 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>神经网络</tag>
         <tag>编程相关</tag>
+        <tag>神经网络</tag>
       </tags>
   </entry>
   <entry>
