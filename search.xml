@@ -29,7 +29,6 @@
 <h4 id="python的样式"><a href="#python的样式" class="headerlink" title="python的样式"></a>python的样式</h4><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;here is my blog&quot;</span>) <span class="comment">#python 的样式</span></span><br><span class="line"><span class="comment">#下面是随便翻出来的习题代码</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Good_student</span>:</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">add</span>(<span class="params">self, a, b</span>):</span><br><span class="line">        <span class="keyword">return</span> a+b</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">multiplicate</span>(<span class="params">self, a, b</span>):</span><br><span class="line">        <span class="keyword">return</span> a*b</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Bad_student</span>:</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">add</span>(<span class="params">self, a, b</span>):</span><br><span class="line">        <span class="keyword">return</span> a-b</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">multiplicate</span>(<span class="params">self, a, b</span>):</span><br><span class="line">        <span class="keyword">return</span> a/b</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">algo</span>(<span class="params">good_student, a, b</span>):</span><br><span class="line">    <span class="built_in">print</span>(good_student.add(a, b))</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;%.2f&quot;</span> % good_student.multiplicate(a, b))</span><br><span class="line"></span><br><span class="line">a = Good_student()</span><br><span class="line">b = Bad_student()</span><br><span class="line">x = <span class="built_in">int</span>(<span class="built_in">input</span>())</span><br><span class="line">y = <span class="built_in">int</span>(<span class="built_in">input</span>())</span><br><span class="line"></span><br><span class="line">algo(a, x, y)</span><br><span class="line">algo(b, x, y)</span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
-        <category>Logs</category>
         <category>日志</category>
       </categories>
       <tags>
@@ -56,9 +55,9 @@
 <p>2023年5月11日_Cu.Li.Zn_整理发送</p>
 ]]></content>
       <categories>
-        <category>软件配置</category>
-        <category>python</category>
         <category>编程相关</category>
+        <category>python</category>
+        <category>软件配置</category>
       </categories>
       <tags>
         <tag>python</tag>
@@ -185,8 +184,8 @@
 <p>对于线性回归，每个输入都与每个输出（在本例中只有一个输出）相连， 我们将这种变换（ 图3.1.2中的输出层） 称为<strong>全连接层</strong>（fully-connected layer）或称为<strong>稠密层</strong>（dense layer）。</p>
 ]]></content>
       <categories>
-        <category>学习笔记</category>
         <category>编程相关</category>
+        <category>学习笔记</category>
       </categories>
       <tags>
         <tag>编程相关</tag>
@@ -244,9 +243,8 @@
 <p>2023年5月4日_Cu.Li.Zn</p>
 ]]></content>
       <categories>
-        <category>基础报错处理</category>
-        <category>python</category>
         <category>编程相关</category>
+        <category>vscode</category>
       </categories>
       <tags>
         <tag>python</tag>
@@ -322,8 +320,8 @@
 <p>numpy.ndarray.flat 是一个数组元素迭代器</p>
 ]]></content>
       <categories>
-        <category>python</category>
         <category>编程相关</category>
+        <category>python</category>
       </categories>
       <tags>
         <tag>Numpy</tag>
