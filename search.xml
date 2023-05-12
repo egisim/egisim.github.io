@@ -41,6 +41,251 @@
       </tags>
   </entry>
   <entry>
+    <title>为已经配置过python的vscode配置anaconda</title>
+    <url>/2023/05/11/E-0002/</url>
+    <content><![CDATA[<h1 id="情况"><a href="#情况" class="headerlink" title="情况"></a>情况</h1><p>下载了anaconda,在vscode已经配置过python相关插件的情况下，修改其中python源为anaconda中自带的python,以便使用其中库。</p>
+<span id="more"></span>
+<p>前提：anaconda已经正确下载在电脑上，我使用的是官网最新源（2023.03）;vscode已经配置过必要python编程插件<br>在这种情况下，虽然已经为anaconda配置了环境变量，但是vscode中不能使用anaconda.</p>
+<h1 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h1><p>vscode中，在之前的配置中已经将python编辑器默认指向电脑上原本下载版本的python</p>
+<h1 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h1><p>1、在vscode界面中，在上方搜索框中（也可以由Ctrl+Shift+p唤起）输入</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt; select interpreter</span><br></pre></td></tr></table></figure>
+<p>出现如下情况<br><img src="https://z4a.net/images/2023/05/11/python.png"/></p>
+<p>此时，点选第一个选项,出现如下选择<br><img src="https://z4a.net/images/2023/05/11/16ada08e8d85207fcdc0bf382ec3df98.png"/><br>选择你所下载的anaconda包中的python即可</p>
+<h1 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h1><p><a href="https://blog.csdn.net/qq_51831335/article/details/126757014">CSDN:全网最简约的Vscode配置Anaconda环境（百分百成功）
+</a></p>
+<p>2023年5月11日_Cu.Li.Zn_整理发送</p>
+]]></content>
+      <categories>
+        <category>软件配置</category>
+        <category>python</category>
+        <category>编程相关</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>vscode</tag>
+        <tag>vscode配置</tag>
+        <tag>编程相关</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>《四书章句集注》读书笔记——《中庸》篇第一部分</title>
+    <url>/2023/05/10/B-0005/</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言:"></a>前言:</h1><p>这里是我近期参加学校阅读课程的读书笔记和闲杂回答，<strong>不能完全代表</strong>本人观点，只是一些当时书写时的思考和文字记录。<br>其中问题，是学校老师提出，以让学生解答的。特此简要说明。<br>这些文字，可能会过些时日分批整理放出。用于填补我的博客内容。</p>
+<span id="more"></span>
+
+<h1 id="《中庸》第一部分"><a href="#《中庸》第一部分" class="headerlink" title="《中庸》第一部分"></a>《中庸》第一部分</h1><h2 id="讨论"><a href="#讨论" class="headerlink" title="讨论"></a>讨论</h2><h3 id="Q"><a href="#Q" class="headerlink" title="Q:"></a>Q:</h3><p>“问题”与“主义”的讨论<br>读了胡适的《多研究些问题，少谈些主义》后，<strong>谈谈你对“问题”与“主义”的看法。</strong></p>
+<h3 id="A"><a href="#A" class="headerlink" title="A:"></a>A:</h3><p>如果要讲“问题”与“主义”的看法，我会想起<strong>弗洛姆</strong>书中一个多次提及的概念：<strong>先知和祭司</strong>。他认为，历史上的一些<strong>提出超前见解的人</strong>，可以被称为先知，他们的学说流传下来，为一些人所<strong>重复并传播</strong>，<strong>聚拢起信奉这种理念的人</strong>，这些人就是祭司。我觉得，如果用中国化的翻译，这就是<strong>圣人和后来的学者</strong>的关系。</p>
+<p>圣人的见解，在他的时代可能是<strong>超前的智慧</strong>，是对<strong>社会现状</strong>的一种比较具有<strong>建设性意义</strong>的<strong>评价和理解</strong>，但是对于后来的时代，<strong>并不一定是</strong>能够完全适应时代特点的。如果希望继承他学派的后来学者<strong>不能加以变通</strong>而是<strong>一味地复述</strong>所谓“先贤之语”，只像教会里的牧师<strong>空洞地</strong>传递教典经书，那么再好的学说也会不可避免地走向<strong>僵化</strong>。</p>
+<p>无论学派甚至教派，后继试图传播前人主要观点而<strong>不加自己思考</strong>者，都是<strong>差劲的祭司</strong>，思想<strong>之所以闪着耀耀光辉</strong>，<strong>正是因为</strong>它的确能够<strong>真是地贴合时代的需要</strong>。相对的，如何运用主义，就必须是<strong>切合实际</strong>的，必须对各项主义中的内容<strong>深入地思考</strong>，以期可以完美地结合理论和现实，达到切实可用于“问题”的目的。</p>
+<p>前日所读的一些书籍（这里指《美国反对美国》节选），也大抵有一些很清晰的论述，是讲<strong>实用的理论才是真正好的理论，可建设国家的理论</strong>，应当避免对它理解的<strong>教条主义的阻碍</strong>。</p>
+<p>那么<strong>反过来说</strong>，在对于主义运用要求似乎如此高的情况下，我国广泛地传播推崇国家意识形态也就是中国特色社会主义的理论片段有什么价值吗？</p>
+<p>我认为这是有<strong>很大价值</strong>的。<strong>在我看来</strong>，这种融入日常生活的宣传方式，传递着国家所希望形成的<strong>社会意识</strong>，在一定意义上可以提高人民的共识，使得人民对政府的理解实际上是更深的，只要政府有能力推进国家保持快速发展，人民生活水平不断提高，在前后对比之下，可以使得人民对这种凝心定气的主义认可度更高，也就<strong>潜移默化地</strong>提高了社会的稳定度。而且，即使只是浮光掠影地接触了一些高度概括的理论，也会<strong>在心底埋下一颗种子</strong>，等到其人确实逐渐意识到这种主义的益处，拾起书卷来思考学习之际，就<strong>更能把它作为一个与生活实际结合起来的、立足于实践基础并可以回馈指导实践的东西来看待</strong>，这样，也一定程度上能够减少教条主义的影响。又因为这种宣传的普遍性，可以<strong>较为乐观地</strong>认为，这是有利于下一代中对这些主义有着不错认知的人数较多的。</p>
+<p>*可能可以注意到，我避免了提及胡适，因为我并不喜欢其人，简要说明。<br>从理论和实际的方面，我试着写了一部分的文字来阐述我的想法，<strong>其中浅陋不足之处，还望包涵</strong>。</p>
+<h3 id="思考题"><a href="#思考题" class="headerlink" title="思考题"></a>思考题</h3><h3 id="Q1"><a href="#Q1" class="headerlink" title="Q1:"></a>Q1:</h3><p>我们读了《大学章句序》和《中庸章句序》，<strong>你还认为宋代是积贫积弱，软弱无能的时代么？说说你的看法。</strong></p>
+<h3 id="A1"><a href="#A1" class="headerlink" title="A1:"></a>A1:</h3><p>我很好奇，为什么会提出这样的问题？<br><strong>什么是积贫积弱？</strong>以宋财力之巨、商业之繁荣，有我评价它积贫的可能吗？以宋后期军事之软弱、时运之不济，<strong>何必</strong>试图将积弱的评价从它身上去除？至于软弱无能，莫非有错？<br>我妄自揣测一下，莫非老师认为，读过大学中庸，就该有可能认为宋并不积弱、并不软弱无能？<strong>此言谬也。</strong><br>在前者主义和问题的讨论中，我<strong>已经强调</strong>，可以真正建设国家的理论，贴合实际的理论，才是好的理论。宋代的<strong>军事上软弱</strong>（此处软弱并非单指能力，其实宋的失败并不完全落在能力的软弱，更有政治意识的软弱），是<strong>不可变动的事实</strong>，如果要用儒家这些理论为它修饰什么，就也算是空守主义妄图指导现实了。退一步来说，倘若一个人便真说，读了大学中庸，便觉宋非本来所认为的积弱、软弱无能，那么我猜测他的着眼点大抵要落在<strong>宋的忍让是符合儒家传统</strong>的了。这么讲的话，<strong>似乎是对的</strong>，但是<strong>实在大为不妥</strong>。儒家似乎几千年来都是占据我国政坛上相当重要地位的，但是回顾往昔自然可以发现，大多<strong>有切实能力的人臣</strong>，<strong>很少僵化</strong>地念什么之乎者也、又或是说空谈儒学以至于影响朝政，而是能够<strong>化之为己所用</strong>。如果要说宋的后期落魄是儒生思维所致，并非不可，不过这种观点，<strong>换言之</strong>，便是批判那些官员等确实只是腐儒一群，甚至因为腐儒思维毁掉了一个国家。<strong>我想，他们本人都不会赞同用这种方式为自己的政治水平低下开脱。</strong><br>所以我的态度是一贯的：宋代后期的军事软弱无可辩驳。如果一定想要加些辩解，那就是部分宋代官员可能确实读书读傻了，以至于政治水平相当低下。</p>
+<h3 id="Q2"><a href="#Q2" class="headerlink" title="Q2:"></a>Q2:</h3><p>朱子批判了佛老“弥近理而大乱真”，<strong>你能举出你生活中遇到的“弥近理而大乱真”的例子么？</strong></p>
+<h3 id="A2"><a href="#A2" class="headerlink" title="A2:"></a>A2:</h3><p>生活中的例子的话，可以说，追逐热点和流量的自媒体，有时候<strong>甚至不一定弥近理</strong>，但是可以算是大乱真了。</p>
+<p><strong>远的</strong>譬如为求流量博人眼球，对社会热点不顾真假胡乱输出情绪的那些的自媒体，<strong>由于实在低劣，是无理之言，便不多谈了</strong>。</p>
+<p><strong>近处</strong>与我专业息息相关的部分来说，对于科技热点的狂热炒作，是一种<strong>典型的例子</strong>。</p>
+<p>无论是ChatGPT大语言模型还是马斯克的“火星殖民”的狂论，总能看到大量自媒体疯狂吹捧这是超越性的科技之光，也能看到一些追逐热点风口、试图“蹭热度”的所谓“专业人士”夸夸其谈，由于<strong>专业准入门槛毕竟存在</strong>，普罗大众对这种言论还是持有很大程度相信的态度的。这就导致即使<strong>五分被夸成了十分、画饼式自我炒作浮夸之至</strong>，也有很多人奉为真理。由于互联网碎片化搜索的普及，<em>似乎这些言论也可相互印证</em>（或者部分就是通稿或洗稿），而且科技企业的炒作总是七分真三分假，<strong>力求夸大自身技术的意义</strong>，从某种意义上，这就确实“弥近理”了，也就有“大乱真”的威胁。</p>
+<p><strong>需要记住的是，炒作舆论是互联网公司的本能，追逐热点以致一味夸大是科技自媒体的习性，对于他们的夸夸其谈，最好只相信一小半。</strong></p>
+<p>就此住笔了。</p>
+<p>2023年5月10日整理发送</p>
+]]></content>
+      <categories>
+        <category>杂谈</category>
+      </categories>
+      <tags>
+        <tag>阅读笔记</tag>
+        <tag>四书章句集注Q&amp;A</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>《四书章句集注》读书笔记——《大学》篇第四部分（终章）</title>
+    <url>/2023/05/10/B-0004/</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言:"></a>前言:</h1><p>这里是我近期参加学校阅读课程的读书笔记和闲杂回答，<strong>不能完全代表</strong>本人观点，只是一些当时书写时的思考和文字记录。<br>其中问题，是学校老师提出，以让学生解答的。特此简要说明。<br>这些文字，可能会过些时日分批整理放出。用于填补我的博客内容。</p>
+<span id="more"></span>
+
+<h1 id="《大学》第四部分"><a href="#《大学》第四部分" class="headerlink" title="《大学》第四部分"></a>《大学》第四部分</h1><h2 id="讨论"><a href="#讨论" class="headerlink" title="讨论"></a>讨论</h2><h3 id="Q"><a href="#Q" class="headerlink" title="Q:"></a>Q:</h3><p><strong>谈谈你对儒家财富观的看法</strong><br>在以前有一副对联：“洪范五福先言富,大学十章半理财”。后面那句说的是《大学》里面有很多关于财富、理财的看法，比如“君子先慎乎德。有德此有人，有人此有土，有土此有财”、“德者本也，财者末也”，“财聚则民散，财散则民聚”，“生财有大道，生之者众，食之者寡，为之者疾，用之者舒，则财恒足矣”，“仁者以财发身，不仁者以身发财”等等。儒家的财富观基本上是<strong>以德为本，有德即有财</strong>的逻辑。但现代社会在财富上的成功，<strong>更强调人的眼光、市场、技术、资金等因素</strong>，与个人道德水平似乎没有直接关系。对此，你怎么看?</p>
+<h3 id="A"><a href="#A" class="headerlink" title="A:"></a>A:</h3><p>我觉得这是出于大学的这部分理论<strong>名为</strong>讲理财，实际上依然为<strong>教化子弟、树立道德模范</strong>为目标，其言“仁者以财发身，不仁者以身发财”，实际上已经对题中所指现象做出来<strong>阐释</strong>：仁者修养道德，所以财虽然不是第一目标，却可以顺水推舟地获得；不仁者以财为目标，苦心经营，终于可能得到财富。推之为题意便是：儒家认为“君子”应当拥有以德为本、有德既有才的逻辑，此处的财，也可以从<strong>更加广的范围</strong>理解，而不必囿于物质的财富；而倘若无德或德行较弱，亦可以术获财。<strong>大道与小术</strong>的关系，正是如此。</p>
+<p>我看到有些同学从<strong>社会环境不同</strong>来试图解读这种情况，我认为是<strong>走错了方向</strong>，<strong>古今商贾，未见有品行相差颇大之说</strong>：自古以来，看轻商贾奸恶的便多有人在，并非是到了今日忽然而言，古代也少闻有德之商，可见社会构架的变迁，并没有对这一方面造成<strong>颠覆性</strong>的改变。这样想来，我觉得我上述所言大道小术的概念，可能<strong>更加贴近问题的原貌一些</strong>。</p>
+<h3 id="思考题"><a href="#思考题" class="headerlink" title="思考题"></a>思考题</h3><h3 id="Q1"><a href="#Q1" class="headerlink" title="Q1:"></a>Q1:</h3><p>中国古代是“家国同构”，所以齐家可以导向国治，<strong>我们现代社会，家国同构么？如果同构，怎么发挥家庭在“治国”中的作用？如果不同构，那么，家庭在国家治理中处于一个什么位置？</strong></p>
+<h3 id="A1"><a href="#A1" class="headerlink" title="A1:"></a>A1:</h3><p><strong>我认为</strong>，我们现代社会家国是<strong>不同构</strong>的（中国）。在现代中国，家庭在国家治理中，处于<strong>最小的社会生产单位</strong>的地位，是<strong>基层治理需要注重的部分</strong>。但是，家庭以上的政府体系，实际上自中央到地方，虽然的确拥有一套架构相近的分部门体系，<strong>然而却绝不能说是和家庭相近的</strong>。</p>
+<p>有言之：“治大国如烹小鲜”，对于家庭构架的<strong>理解</strong>，可以帮助治国理政者从<strong>宏观</strong>上理解社会上很多<strong>显性问题</strong>，并更好地决策<strong>与之相关的政策问题</strong>。</p>
+<p>也同样需要我们思考的是：家庭的氛围可以<strong>影响</strong>个人的发展，如何实现更好的家庭教育，使得整体<strong>社会素质</strong>更加高，也是对于国家治理有所帮助的环节。</p>
+<h3 id="Q2"><a href="#Q2" class="headerlink" title="Q2:"></a>Q2:</h3><p>根据《大学》，儒家理想的国家治理是“以义为利”的，而现代的国家是“以利为利”的，<strong>你认为有道理么？为什么？</strong></p>
+<h3 id="A2"><a href="#A2" class="headerlink" title="A2:"></a>A2:</h3><p>在这以前，我对《大学》里这种比较<strong>与现实功利相对</strong>的话，一直就抱有这样一种态度：<strong>它的实际目的是教化而非指导，要提出的并非普世的概念而是可以引导社会向仁善发展的</strong>，到了这里，我依然觉得这种判断是正确的，但是这种理想化确实有些<strong>过于虚浮</strong>了。</p>
+<p>理想的国家治理是“以义为利”的，这种理想化，在我看来，只会出现在<strong>规模较小、社会同一性较高、国民平均素养极高</strong>的<strong>假想</strong>国家中。只要这个国家的<strong>设计</strong>稍稍立足于现实，就会发现，<strong>单纯以义为利的行为模式</strong>在其他国家都以利为利的情况下是<strong>站不住脚</strong>的。<strong>首先</strong>，<strong>不同人</strong>对义的<strong>理解</strong>是<strong>不同</strong>的，这就意味着单纯以义为利的模式下，国家的<strong>方向感是不足的</strong>，没有对义的<strong>同一理解</strong>，<strong>意味着国民内部矛盾会较大</strong>；其次，纯粹的理想主义者，难以应对<strong>复杂多变的现实情况</strong>，这就意味着<strong>国家立国的稳定性是堪忧的</strong>；最后，我认为，<strong>有利兼有义</strong>，才是国家较为<strong>兼顾理想与现实</strong>的治理方式。</p>
+<p>所以，我的态度已经很明显了：<strong>道德上的国家，需要建立在现实中的国家之上。</strong></p>
+<p>2023年5月10日整理发送</p>
+]]></content>
+      <categories>
+        <category>杂谈</category>
+      </categories>
+      <tags>
+        <tag>阅读笔记</tag>
+        <tag>四书章句集注Q&amp;A</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>《四书章句集注》读书笔记——《大学》篇第三部分</title>
+    <url>/2023/05/10/B-0003/</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言:"></a>前言:</h1><p>这里是我近期参加学校阅读课程的读书笔记和闲杂回答，<strong>不能完全代表</strong>本人观点，只是一些当时书写时的思考和文字记录。<br>其中问题，是学校老师提出，以让学生解答的。特此简要说明。<br>这些文字，可能会过些时日分批整理放出。用于填补我的博客内容。</p>
+<span id="more"></span>
+
+<h1 id="《大学》第三部分"><a href="#《大学》第三部分" class="headerlink" title="《大学》第三部分"></a>《大学》第三部分</h1><h2 id="讨论"><a href="#讨论" class="headerlink" title="讨论"></a>讨论</h2><h3 id="Q"><a href="#Q" class="headerlink" title="Q:"></a>Q:</h3><p>关于“格物致知”的讨论<br>朱子在《大学章句》中补充了“格物致知”一章，“格物”是要<strong>穷事物之道理</strong>，这同时也是<strong>穷心之理</strong>的过程，其结果就是物之理、心之理豁然贯通。在掌握事物之理和心之理的情况下，天下一切尽在掌握，自然可以坦然面对，即开始了诚意、正心、修身直到治国、平天下。<strong>是否我们可以说，如果没有朱子“格物致知”打通事物之理与心之理，那么，我们个人的“诚意”就没有办法导致“天下平”的现实结果？南大校歌第一句也说“大哉一诚天下动”，若没有朱子的“格物致知”作为背景，是不是也不能做到呢？</strong></p>
+<h3 id="A"><a href="#A" class="headerlink" title="A:"></a>A:</h3><p>想要解答以上两个问题，不妨<strong>假设</strong>的确地去除了格物致知这一纽带，来想象一下，会是什么样子。</p>
+<p><strong>没有格物致知</strong>，即便我们个人“诚其意”，显然也是<strong>脱离了现实基础</strong>的诚意，<strong>于改造世界并无实在用处</strong>。倘若以为脱离实际的诚意可以确实地为世界提供正向推动力，那无疑是<strong>落入了唯心主义的论调</strong>。不是说一个人相当有诚意地说：“我想使天下太平”，天下便当真如愿的。是有此心，为之调查研究，付出行动的努力，才有达成目标的<strong>实际可能</strong>。</p>
+<p>“大哉一诚天下动”应该和实际背景比较<strong>分离</strong>，在我看来，这句歌词更像是题词者对大学生道德规范的一种<strong>理想希望</strong>，<strong>而非</strong>是对既定道理的强调。如果一定要从<strong>实际可行性</strong>上来考虑这句文辞，那么答案也是确定的：是的，“诚其意”是“天下动”的<strong>一大步</strong>，而由此至彼的<strong>漫长道路</strong>中，无法缺少“格物致知”的<strong>必要理解</strong>。</p>
+<h3 id="思考题"><a href="#思考题" class="headerlink" title="思考题"></a>思考题</h3><h3 id="Q1"><a href="#Q1" class="headerlink" title="Q1:"></a>Q1:</h3><p>儒家解决问题、矛盾的思路是由内而外的，将解决问题的根本放置在“明明德”上，而我们现实生活中，当遇到问题时，总会先考察问题出现的原因，找出解决的思路，然后去解决，并涉及到“明明德”。那么，<strong>你认为儒家和现实中我们的解决问题的思路，哪个好？为什么？</strong></p>
+<h3 id="A1"><a href="#A1" class="headerlink" title="A1:"></a>A1:</h3><p>这是<strong>两种思考角度</strong>的原因，而不是<strong>单纯</strong>二选一的问题。</p>
+<p>儒家这种<strong>由内而外</strong>的思路，相当于把<strong>人</strong>作为问题的<strong>主要因素</strong>，也就是说，认为<strong>人的认知和道德水平极大程度地影响着生活并导致了种种问题</strong>，这在<strong>生产力发展速度并不爆炸的古代</strong>，可以统帅大部分情况。加之人才是认识改造世界的<strong>主体</strong>，人从自身出发，<strong>只能改变自身的处事方法</strong>才能达成解决问题的结果，显然，这种方式是十分可行的。</p>
+<p>至于先考察问题出现的原因，就是从小处去现实发现<strong>表层理由</strong>，再<strong>逐渐深入</strong>的方式，我认为和上述思路实际上是<strong>殊途同归</strong>的，也就是说，在现实生活中，我一向推崇<strong>两种思路都推演</strong>的处理方法，思考地更加全面立体，可以在解决问题上更具有帮助。毕竟，<strong>没有任何问题的解决，离得开人的改变。</strong></p>
+<h3 id="Q2"><a href="#Q2" class="headerlink" title="Q2:"></a>Q2:</h3><p>你认为<strong>“慎独”</strong>的<strong>儒学</strong>意义和<strong>现代</strong>意义是什么？</p>
+<h3 id="A2"><a href="#A2" class="headerlink" title="A2:"></a>A2:</h3><p><strong>慎独</strong>，即在独处时谨慎地注意自己的行为举止，使之符合高尚的道德规范。</p>
+<p>从<strong>儒学意义</strong>上来看，慎独是为儒生提供了一个<strong>较高的自我约束的道德要求</strong>，即<strong>不单纯因为社会要求原因展现高素质</strong>，而是在生活状态中<strong>一以贯之，以期达到君子的境界</strong>。这种道德要求是<strong>自发</strong>的，它所导致的<strong>一个明显的积极影响</strong>是，以这种要求时时叩问自身的儒生，更自然地在社会生活中达成这种状态（只要他不将此作为单纯的空话来看待）。</p>
+<p>从<strong>现代意义</strong>上来讲，我们完全可以将这种理念从儒生推广为一种<strong>正向的生活方式</strong>，也就是说，以这种理念说服当代<strong>部分态度较诚恳、觉悟较高</strong>的年轻人，促使其达成<strong>更为自省</strong>的人生观，进而<strong>辐射</strong>其身边的其他年轻人，由此逐步<strong>增强社会意识</strong>，<strong>长此以往，何愁无有尧舜之风姿？</strong></p>
+<p>2023年5月10日整理发送</p>
+]]></content>
+      <categories>
+        <category>杂谈</category>
+      </categories>
+      <tags>
+        <tag>阅读笔记</tag>
+        <tag>四书章句集注Q&amp;A</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>神经网络自学（一）线性回归</title>
+    <url>/2023/05/05/S-0001/</url>
+    <content><![CDATA[<h1 id="线性回归"><a href="#线性回归" class="headerlink" title="线性回归"></a>线性回归</h1><p>注： 本文本为我自学准备完成期末课程设计时所做笔记，主要内容来自 <a href="https://zh.d2l.ai/chapter_linear-networks/linear-regression.html">这个网站</a><br>特此说明。</p>
+<span id="more"></span>
+
+<h2 id="什么是线性回归？"><a href="#什么是线性回归？" class="headerlink" title="什么是线性回归？"></a>什么是线性回归？</h2><p>一个最简单而且最流行的回归模型<br>如<strong>y&#x3D;kx+b</strong><br>可以处理问题类型：预测数值</p>
+<h2 id="线性回归的基本元素-x2F-前提假设"><a href="#线性回归的基本元素-x2F-前提假设" class="headerlink" title="线性回归的基本元素&#x2F;前提假设"></a>线性回归的基本元素&#x2F;前提假设</h2><p>自变量x和因变量y，它们之间的关系是<strong>线性</strong>的<br>假设噪声比较<em>正常</em>，如噪声遵循正态分布等</p>
+<h3 id="名词解释"><a href="#名词解释" class="headerlink" title="名词解释"></a>名词解释</h3><p><strong>训练数据集&#x2F;训练集</strong>：用于训练模型而准备的真实数据集<br><strong>样本&#x2F;数据点&#x2F;数据样本</strong>：训练数据集中每一行数据</p>
+<p><strong>标签&#x2F;目标</strong>：试图预测的对象<br><strong>特征&#x2F;协变量</strong>：预测依据的自变量</p>
+<h3 id="常见表示"><a href="#常见表示" class="headerlink" title="常见表示"></a>常见表示</h3><p>n表示数据集中样本数</p>
+<h2 id="线性模型"><a href="#线性模型" class="headerlink" title="线性模型"></a>线性模型</h2><p>常见形式为：<br>y&#x3D;w1x1+w2x2+……+wdxd+b<br>其中：<br>wi为权重（weight），决定每个特征对预测值的影响<br>b为偏置&#x2F;偏移量&#x2F;截距<br>从数学上，上式是输入特征的一个仿射变换<br>总体上，我们需要寻找这个模型。</p>
+<p>噪声的作用：处理可能存在的少量观测误差</p>
+<h2 id="损失函数"><a href="#损失函数" class="headerlink" title="损失函数"></a>损失函数</h2><p>想象一个所有特征差值平方和的平均数<br>就是那个。<br>当求得模型在所有训练样本上总损失最小时，即为我们所求模型。</p>
+<h2 id="解析解"><a href="#解析解" class="headerlink" title="解析解"></a>解析解</h2><p>一个公式表达的解<br>对问题限制很严格，导致它无法广泛应用在深度学习里。</p>
+<h2 id="随机梯度下降"><a href="#随机梯度下降" class="headerlink" title="随机梯度下降"></a>随机梯度下降</h2><p>ps：以下部分原文复制较多</p>
+<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>梯度下降（gradient descent）： 这种方法几乎可以优化所有深度学习模型。 它通过不断地在损失函数递减的方向上更新参数来降低误差。</p>
+<h3 id="什么是随机梯度下降"><a href="#什么是随机梯度下降" class="headerlink" title="什么是随机梯度下降"></a>什么是随机梯度下降</h3><p>最简单：计算损失函数（数据集中所有样本的损失均值） 关于模型参数的导数（在这里也可以称为梯度） 但实际中的执行可能会非常<strong>慢</strong>：因为在每一次更新参数之前，我们<strong>必须遍历整个数据集</strong>。 因此，我们通常会在每次需要计算更新的时候<strong>随机抽取一小批样本</strong>， 这种变体叫做<strong>小批量随机梯度下降</strong>（minibatch stochastic gradient descent）</p>
+<p>在每次迭代中，我们首先随机抽样一个小批量， 它是由固定数量的训练样本组成的。 然后，我们计算小批量的平均损失关于模型参数的导数（也可以称为梯度）。 最后，我们将梯度乘以一个预先确定的正数，并从当前参数的值中减掉。<br>总结一下，算法的步骤如下： （1）初始化模型参数的值，如随机初始化； （2）从数据集中随机抽取小批量样本且在负梯度的方向上更新参数，并不断迭代这一步骤。</p>
+<p>在训练了预先确定的若干迭代次数后（或者直到满足某些其他停止条件后）， 我们记录下模型参数的估计值，表示为w,b。 但是，即使我们的函数确实是线性的且无噪声，这些估计值也不会使损失函数真正地达到最小值。 因为算法会使得损失向最小值缓慢收敛，但却不能在有限的步数内非常精确地达到最小值。</p>
+<h2 id="用模型进行预测"><a href="#用模型进行预测" class="headerlink" title="用模型进行预测"></a>用模型进行预测</h2><p>给定特征估计目标的过程通常称为预测（prediction）或推断（inference）</p>
+<h2 id="矢量化加速"><a href="#矢量化加速" class="headerlink" title="矢量化加速"></a>矢量化加速</h2><p>矢量化代码通常会带来数量级的加速。<br><strong>建议直接进入上述网站查看</strong></p>
+<h2 id="正态分布与平方损失"><a href="#正态分布与平方损失" class="headerlink" title="正态分布与平方损失"></a>正态分布与平方损失</h2><p><strong>建议直接进入上述网站查看</strong><br>因为我这边不会打公式（不）</p>
+<h2 id="从线性回归到深度网络"><a href="#从线性回归到深度网络" class="headerlink" title="从线性回归到深度网络"></a>从线性回归到深度网络</h2><p>将线性回归看作单词神经网络</p>
+<img src="https://z4a.net/images/2023/05/05/danceng.png"/>
+
+<p>图示输出层即该神经网络的唯一计算神经元。<br>所以该神经网络层数为1，该模型为仅由单个人工神经元组成的神经网络，或称单层神经网络。</p>
+<p>对于线性回归，每个输入都与每个输出（在本例中只有一个输出）相连， 我们将这种变换（ 图3.1.2中的输出层） 称为<strong>全连接层</strong>（fully-connected layer）或称为<strong>稠密层</strong>（dense layer）。</p>
+]]></content>
+      <categories>
+        <category>学习笔记</category>
+        <category>编程相关</category>
+      </categories>
+      <tags>
+        <tag>编程相关</tag>
+        <tag>神经网络</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>《四书章句集注》读书笔记——《大学》篇第二部分</title>
+    <url>/2023/05/05/B-0002/</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言:"></a>前言:</h1><p>这里是我近期参加学校阅读课程的读书笔记和闲杂回答，<strong>不能完全代表</strong>本人观点，只是一些当时书写时的思考和文字记录。<br>其中问题，是学校老师提出，以让学生解答的。特此简要说明。<br>这些文字，可能会过些时日分批整理放出。用于填补我的博客内容。</p>
+<span id="more"></span>
+
+<h1 id="《大学》第二部分"><a href="#《大学》第二部分" class="headerlink" title="《大学》第二部分"></a>《大学》第二部分</h1><h2 id="讨论"><a href="#讨论" class="headerlink" title="讨论"></a>讨论</h2><h3 id="Q"><a href="#Q" class="headerlink" title="Q:"></a>Q:</h3><p><strong>你在生活中有类似“骑自行车”的状态么？</strong><br>导读中，我举过骑自行车的例子，就是说，我们与自己所处世界的关系，一般而言是<strong>主客对立</strong>的关系，因为我们总是<strong>使用理性思考隔断</strong>了我们自身与所处世界先在的<strong>一体关系</strong>。我们的身体、在世是先于理性思考的，这潜在地决定了我们的<strong>生存方式</strong>，在某种程度上，每个人都是被抛入这个世界。而当我们<strong>沉浸</strong>在自己所从事的事务时，那种与世界一体的状态就会显现出来，就像骑自行车时不会意识到骑车，车子不是外在的对象，而是我的身体一部分，车轮就是我的脚，我可以自觉地调整穿过窄道，也可以躲避行人、车辆，不让它们碰到自己……这是我们<strong>突破自己扮演的社会角色</strong>，突破社会对我们的支解和异化，从而<strong>回归自身</strong>，开启自觉人生的重要一面。这是人与世界原始关系的呈现。儒家叫“天人合一”“与仁同体”，佛教叫“三昧”，道家叫“逍遥游”</p>
+<h3 id="A"><a href="#A" class="headerlink" title="A:"></a>A:</h3><p>老师所言的“骑自行车的状态”，<strong>我来理解的话</strong>，就代表着<strong>天人合一的、如臂使指的</strong>圆融状态。</p>
+<p>更加确切地说，就是<strong>自如地运用乃至可以忽视所投入的精力和思考</strong>的状态。真要说的话，在我的记忆所及，我<strong>基本没有</strong>这种状态的经历（骑自行车倒是确实很自然）。如果让我来解释的话，这可能是因为我<strong>信奉****以理性控制感性，以逻辑克制冲动和冒进，用思考取代直觉的</strong>生活方式。这种行为模式由我<strong>对纯粹理性的赞同</strong>而来，形成了我基本的生存状态。我对于<strong>我必然处于社会角色中，必然以人的身份与世界交互，必然是与世界处于两极位置这一理解认知</strong>接受十分良好，并坚定贯彻着理性思考在我行为判断中的<strong>首要地位</strong>。</p>
+<p>我的理性要求做我行为的<strong>主人</strong>，成为所有行为的<strong>决定者</strong>。我希冀我在人生的任何一个时期回首，都<strong>从不</strong>为过去的决定和所后悔，所以，即使因此失去与世界的一体性，也并不为此伤怀。</p>
+<h3 id="思考题"><a href="#思考题" class="headerlink" title="思考题"></a>思考题</h3><h3 id="Q1"><a href="#Q1" class="headerlink" title="Q1:"></a>Q1:</h3><p>你觉得《大学》所说的<strong>治国、平天下的基础在于正心、诚意、格物致知</strong>，有道理么？为什么？</p>
+<h3 id="A1"><a href="#A1" class="headerlink" title="A1:"></a>A1:</h3><p>说治国、平天下的基础在于正心、诚意、格物致知，我觉得是<strong>有道理</strong>的。</p>
+<p>能定一国者，必然有<strong>端正的思想态度</strong>，必然应当有<strong>正确地认知分析</strong>客观事实的能力，而且必然有<strong>非常意志信念</strong>，方能治理好一个国家。</p>
+<p>当然，只有这些依然不足，我以为<strong>术道二者，同样重要</strong>，治国理政，须有方略。<strong>没有明亮的眼睛，看不见前进的方向；没有明亮的心，辨不清前进的原因。****内修心性，外修谋略</strong>，二者齐备，才能算是合格的治国人才。</p>
+<p>没有根基，注定无法建立楼阁，而建筑本身，<strong>不只</strong>需要根基，<strong>还</strong>需要合理的架构、坚实的材料、精湛的工艺。治国平天下，同理。</p>
+<h3 id="Q2"><a href="#Q2" class="headerlink" title="Q2:"></a>Q2:</h3><p>《大学》乃至中国传统文化重道德、人的明德之开显，忽视科学、理性等，而正是我们这个时代所需要的，请问，<strong>你觉得怎样在科技、经济大发展的今天保持我们的传统文化？</strong></p>
+<h3 id="A2"><a href="#A2" class="headerlink" title="A2:"></a>A2:</h3><p>说来道去，依然只有<strong>“取其精华”</strong>四字可谈。</p>
+<p>古为今用，着重于<strong>“用”</strong>字，虽然中国传统文化忽视科学（我并不认为它忽视理性），但是依然有足够璀璨而重要的<strong>思想</strong>蕴含其中。譬如说，“周虽旧邦，其命维新”的革新精神；譬如说，“苟利国家生死以，岂因祸福避趋之”的爱国情怀；譬如说，“三人行必有我师焉”的谦虚好学；譬如说“兼爱非攻”的博爱理想主义……</p>
+<p>题中说《大学》乃至中国传统文化重道德、人的明德之开显。重道德是坏事吗？并不是。那么我们是不是已经可以得出一部分结论，即在本时代的道德建设中，取传统文化中符合现代公序良俗的部分是<strong>非常有益</strong>的呢？</p>
+<p>再回到《大学》乃至中国传统文化忽视科学的一点，显然这是这种文化的一大短板，然而也并不是说，我们学习传统文化就要忽视科学，我相信中国古人的智慧里，<strong>实用理性</strong>是非常重要的一块，以前忽视科学，是没有<strong>认知</strong>到科学<strong>在社会发展中的重要性</strong>，那么现在历史给了我们答案，我们自然可以将注重科学与传统文化<strong>一同融合</strong>使用，<strong>需要信念的时候看向历史，需要力量的时候握住科学。</strong></p>
+<p>总而言之，在需要什么的时候，去做什么，这样子，传统文化的保存自然不是需要特别讨论的东西了。</p>
+<p>2023年5月5日整理发送</p>
+]]></content>
+      <categories>
+        <category>杂谈</category>
+      </categories>
+      <tags>
+        <tag>阅读笔记</tag>
+        <tag>四书章句集注Q&amp;A</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>vscode相对路径报错原因</title>
+    <url>/2023/05/04/E-0001/</url>
+    <content><![CDATA[<h1 id="情况"><a href="#情况" class="headerlink" title="情况"></a>情况</h1><p>今天在vscode用python尝试opencv库基础操作——调用图片并打开时，发生了相对路径不断报错，但绝对路径可以直接打开的情况。</p>
+<span id="more"></span>
+<p>前提：vscode打开的文件夹是pythons</p>
+<p>绝对路径代码如下：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> cv2</span><br><span class="line">img = cv2.imread(<span class="string">&#x27;E:/pythons/cvdeal/datas/orig/2092.png&#x27;</span>,<span class="number">0</span>)</span><br><span class="line">cv2.imshow(<span class="string">&#x27;2092&#x27;</span>,img)</span><br><span class="line">cv2.waitKey(<span class="number">0</span>)</span><br></pre></td></tr></table></figure>
+
+<p>出错的相对路径代码如下：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> cv2</span><br><span class="line">img = cv2.imread(<span class="string">&#x27;./datas/orig/2092.png&#x27;</span>,<span class="number">0</span>) <span class="comment">#灰度打开 #./代表省略前面文件夹的路径</span></span><br><span class="line">cv2.imshow(<span class="string">&#x27;2092&#x27;</span>,img)</span><br><span class="line">cv2.waitKey(<span class="number">0</span>)</span><br></pre></td></tr></table></figure>
+
+<h1 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h1><p>vscode中，默认的同级文件夹是“打开”的文件夹，而不是执行文件所处的当前文件夹。<br>也就是说，当vscode打开了我的文件夹”E:&#x2F;pythons&#x2F;“，而我执行的文件处于”pythons”文件夹下的文件夹”cvdeal”时，相对路径的书写应该写为’.&#x2F;cvdeal&#x2F;datas&#x2F;orig&#x2F;2092.png’</p>
+<h1 id="修改后代码形式"><a href="#修改后代码形式" class="headerlink" title="修改后代码形式"></a>修改后代码形式</h1><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> cv2</span><br><span class="line">img = cv2.imread(<span class="string">&#x27;./cvdeal/datas/orig/2092.png&#x27;</span>,<span class="number">0</span>) <span class="comment">#灰度打开</span></span><br><span class="line">cv2.imshow(<span class="string">&#x27;2092&#x27;</span>,img)</span><br><span class="line">cv2.waitKey(<span class="number">0</span>)</span><br></pre></td></tr></table></figure>
+
+<h1 id="其他修改方式-（推荐）"><a href="#其他修改方式-（推荐）" class="headerlink" title="其他修改方式 （推荐）"></a>其他修改方式 （推荐）</h1><p>建议直接打开目前处理的文件夹，不要打开它的父文件夹（认真）。<br>这样总体方便，而且方便代码的迁移运用。</p>
+<h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><p>更改正确后，我才想起之前在其他问题的编程中好像也有过这个问题，但是当时解决完很快又忘了（不长记性……），所以特此记录，也希望可以帮到其他遇到此问题的人。</p>
+<p>2023年5月4日_Cu.Li.Zn</p>
+]]></content>
+      <categories>
+        <category>基础报错处理</category>
+        <category>python</category>
+        <category>编程相关</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>vscode</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>《四书章句集注》读书笔记——《大学》篇第一部分</title>
+    <url>/2023/05/02/B-0001/</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言:"></a>前言:</h1><p>这里是我近期参加学校阅读课程的读书笔记和闲杂回答，<strong>不能完全代表</strong>本人观点，只是一些当时书写时的思考和文字记录。<br>其中问题，是学校老师提出，以让学生解答的。特此简要说明。<br>这些文字，可能会过些时日分批整理放出。用于填补我的博客内容。</p>
+<span id="more"></span>
+
+<h1 id="《大学》第一部分"><a href="#《大学》第一部分" class="headerlink" title="《大学》第一部分"></a>《大学》第一部分</h1><h2 id="讨论"><a href="#讨论" class="headerlink" title="讨论"></a>讨论</h2><h3 id="Q"><a href="#Q" class="headerlink" title="Q:"></a>Q:</h3><p><strong>读《大学章句序》，你认同朱子给出的人生观吗？</strong><br>在这篇序文中，朱子给出的人生观是：<strong>天赋予人“仁义礼智”的本性，现实中的人，自身以及社会历史条件有限，不能完全透显这种本性，因而需要先觉的圣人、君主，来教化大众开显其本性。所以，开显天赋的本性是中国古人理解的人生意义所在，自我成就的根本。</strong></p>
+<h3 id="A"><a href="#A" class="headerlink" title="A:"></a>A:</h3><p><strong>天赋人性，我是认可的</strong>，然而，朱子认为天赋予人的是“仁义礼智之性”，我<strong>不能赞同</strong>。</p>
+<p>所谓天赋人性，<strong>按我的理解</strong>，乃生命本源赋予我们人类的生存本能：<strong>浅层基础的</strong>，便表现为<strong>活下去的能力</strong>，即饿了懂得觅食，渴了晓得饮水，天黑懂得躲藏，这些种种的生存本能至今依然存在于我们身体里面，然而，在群居性文明中的我们（人类），将这种简单的生存本能，架构成为<strong>更加复杂的结构</strong>，即<strong>活得好的能力</strong>，因为相互帮助可以改善生活的条件，因为相互支持可以改变生存的形式，因为朴素正义可以改变我们的生活质量、让生活更加安全、让生存成为更加理所当然的事情，<strong>于是</strong>，我们承认这种善良为人天性的一部分，无论是因为这是天性而让我们活得更好，还是因为我们因它活得更好而以它为天性，性善论都可以有其意义。</p>
+<p>基因决定了我们，基因影响着我们，基因正是我们天赋之性的来源。一代又一代，我们接受着<strong>社会意识</strong>的影响，兼之我们的各自的<strong>“天性”</strong>，不断<strong>打磨影响</strong>着所谓“天赋之性”，数十万年前，为了生存，智人走出非洲，和世界各地的猿人战争；一万多年前，一个人受伤，有人为他包扎伤口，有人为他提供食物；几千年前，我们相信，士庶有别，而现在，我们相信，人人平等；从久远的彼端一路行至此时此刻，我们有一直相信的东西，也有改变了的普遍想法，一切都是为了更好地生存，这就是天赋之性的本质。</p>
+<p>所以，处于恶劣环境的人，往往偏向性恶，因为他潜意识意识到保持朴素正义不能使得他从目前的环境中获得足够的资源使得他可以生存得更好，那么偏向残忍本能便成为理所当然的事情。对于孩子乃至一些成年人，<strong>所谓教化</strong>，便是让他意识到何为目前环境需要的道德法则，以此构建这一类的社会关系。这也解释一些性无论的观点是从何而来。</p>
+<p>以上是我对“天赋之性”的理解，基于这种理解，我们可以将目光转向朱熹的人生观：不妨把先觉的圣人、君主这种所谓的<strong>“先觉者”</strong>，修改为由于阅历更多眼界更广，而很好地理解了一些社会观念并加以总结思考的<strong>“先行者”</strong>，他们并不能说是<strong>在先天认知上有超越之处</strong>，而是应该评价为<strong>在后天经验上有过人之处</strong>，所起到的<strong>主要作用</strong>是延续前者的思想，创立自己的观点，并将这些传递给后来者，从影响上看，一些好书可以起到这种教化者相似的作用。</p>
+<p>这种实际上是<strong>文明的赓续</strong>，是先前之人交予后来之人的认知经验，是社会意识的逐代更迭，我当然认可，我们的生存<strong>本身</strong>一定有着某种意义，使得我们一定要坚持前行，历经万代不衰，即使我不将它作为前进的理由和方向，我行走于这条道路上，是为了<strong>我所相信的东西</strong>，是为了我的成长和前进，是为了我可以自己创造出自己的意义，是为了将我的正义贯彻下去，为了<strong>我的正义</strong>，我想，甚至可以排斥与我的意义对抗的、<strong>“天所赋予的”生存意义</strong>。</p>
+<p>什么是人生的意义？什么是我的人生观？这就是我的回答。</p>
+<h3 id="思考题"><a href="#思考题" class="headerlink" title="思考题"></a>思考题</h3><h3 id="Q1"><a href="#Q1" class="headerlink" title="Q1:"></a>Q1:</h3><p>朱子理解的人类生存的意义是什么？并且，受朱子的启发，谈谈你对生存的意义的理解。</p>
+<h3 id="A1"><a href="#A1" class="headerlink" title="A1:"></a>A1:</h3><p>在四书章句集注序中，有“盖自天降生民，则即不莫与之以仁义礼智之性矣。”，显示出朱子对人之本质的理解：人是天所生之物，天生具有美德，问题在于不能完全表现出这种天性的美德，又思及朱子“存天理灭人欲”的理学思想，不难看出，朱熹的这部分观点，折射出他对人类生存意义的态度：即人类生存是为了逐渐接近天生的仁义礼智之性，并按天理而行动，以此达到更高的境界，便是人生的意义。<strong>简而言之</strong>，人生的意义便是使得个人品德不断臻于完善的过程，是实践道德准则的过程。</p>
+<p><strong>总体来讲</strong>，对于朱熹对<strong>不断提升自身修养</strong>的观点，我是<strong>完全认同</strong>的。因为我以为，人活着必然有一个意义，<strong>即使</strong>我不将它作为前进的理由和方向，我行走于这条道路上，是为了我所相信的东西，是为了我的成长和前进，是为了我可以自己创造出自己的意义，是为了将我的正义贯彻下去，为了我的正义，我想，甚至可以排斥与我的意义对抗的、“天所赋予的”生存意义。这就是我的回答。</p>
+<h3 id="Q2"><a href="#Q2" class="headerlink" title="Q2:"></a>Q2:</h3><p>为什么中国古代社会是一个崇尚圣人、皇帝的社会？为什么有的皇帝是个小孩子、是个无能的昏君，可是还得到全国的尊崇，尤其是那些有能力的大臣的尊崇？我们现代社会还需要这样么？</p>
+<h3 id="A2"><a href="#A2" class="headerlink" title="A2:"></a>A2:</h3><p>我认为，崇尚圣人和皇帝应当<strong>分开</strong>来理解，崇尚圣人，是对于其<strong>知识德行</strong>有所钦慕，<strong>希冀</strong>以此来对自身修养<strong>有所增益</strong>，当然，也有对贤者美好品行的<strong>单纯仰慕</strong>。</p>
+<p>崇尚皇帝，则是封建社会的格局所导致的一种<strong>必然结果</strong>。皇帝处于封建社会的<strong>核心</strong>位置，其政治地位和权力的存在，使得其不可避免成为一种<strong>抽象化的象征</strong>，无论推动这种象征的是皇帝本人的意志抑或是旁人的意志。这以后，忠君爱国的思想作为维系皇朝统治的根基之一，不断潜移默化地影响着古代社会的<strong>社会意识</strong>，皇帝的权威也成为了某种意义上的<strong>精神依靠</strong>。</p>
+<p>理解了上述皇帝的权威是<strong>如何脱离皇帝本人而延续下来</strong>，便可以轻易回答为什么即使皇帝本人是小孩子或者昏君，依然可以得到全国的尊崇，因为<strong>其本身的个性</strong>并不是尊君文化最<strong>关注</strong>的部分，尊君文化最看重的是他<strong>代表的抽象意义</strong>，即皇帝<strong>概念的本身</strong>。</p>
+<p><strong>现代社会需要这样吗？</strong>实际上问的也应该分为<strong>两方面</strong>理解，对于<strong>正确理论和合理实践</strong>的推崇毫无疑问是必要的，这是时代发展的<strong>必然要求</strong>。但是，是否应当保留合适的个人崇拜？我认为对贤能之人的推崇<strong>依然是必要的</strong>，而且我们<strong>无法避免</strong>对一些远胜于我们的人产生崇敬心理，即使这可能让人不妙地想起个人崇拜主义。<strong>然而，由人组成的社会，我们在比较、崇拜、追逐中增进自身，正是一条明朗可见的道路。</strong></p>
+<p>2023年5月2日整理发送。</p>
+]]></content>
+      <categories>
+        <category>杂谈</category>
+      </categories>
+      <tags>
+        <tag>阅读笔记</tag>
+        <tag>四书章句集注Q&amp;A</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>python Numpy 简单入门（一）</title>
     <url>/2023/05/02/A-0002/</url>
     <content><![CDATA[<h1 id="Numpy简单入门"><a href="#Numpy简单入门" class="headerlink" title="Numpy简单入门"></a>Numpy简单入门</h1><p>个人笔记，如有错漏补充欢迎指出，部分描述直接来自菜鸟教程<br>这里主要是一些我平时用到的一些用法记录，不完全，随时间更新。  </p>
@@ -83,246 +328,6 @@
       <tags>
         <tag>Numpy</tag>
         <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>《四书章句集注》读书笔记——《大学》篇第一部分</title>
-    <url>/2023/05/02/B-0001/</url>
-    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言:"></a>前言:</h1><p>这里是我近期参加学校阅读课程的读书笔记和闲杂回答，<strong>不能完全代表</strong>本人观点，只是一些当时书写时的思考和文字记录。<br>其中问题，是学校老师提出，以让学生解答的。特此简要说明。<br>这些文字，可能会过些时日分批整理放出。用于填补我的博客内容。</p>
-<span id="more"></span>
-
-<h1 id="《大学》第一部分"><a href="#《大学》第一部分" class="headerlink" title="《大学》第一部分"></a>《大学》第一部分</h1><h2 id="讨论"><a href="#讨论" class="headerlink" title="讨论"></a>讨论</h2><h3 id="Q"><a href="#Q" class="headerlink" title="Q:"></a>Q:</h3><p><strong>读《大学章句序》，你认同朱子给出的人生观吗？</strong><br>在这篇序文中，朱子给出的人生观是：<strong>天赋予人“仁义礼智”的本性，现实中的人，自身以及社会历史条件有限，不能完全透显这种本性，因而需要先觉的圣人、君主，来教化大众开显其本性。所以，开显天赋的本性是中国古人理解的人生意义所在，自我成就的根本。</strong></p>
-<h3 id="A"><a href="#A" class="headerlink" title="A:"></a>A:</h3><p><strong>天赋人性，我是认可的</strong>，然而，朱子认为天赋予人的是“仁义礼智之性”，我<strong>不能赞同</strong>。</p>
-<p>所谓天赋人性，<strong>按我的理解</strong>，乃生命本源赋予我们人类的生存本能：<strong>浅层基础的</strong>，便表现为<strong>活下去的能力</strong>，即饿了懂得觅食，渴了晓得饮水，天黑懂得躲藏，这些种种的生存本能至今依然存在于我们身体里面，然而，在群居性文明中的我们（人类），将这种简单的生存本能，架构成为<strong>更加复杂的结构</strong>，即<strong>活得好的能力</strong>，因为相互帮助可以改善生活的条件，因为相互支持可以改变生存的形式，因为朴素正义可以改变我们的生活质量、让生活更加安全、让生存成为更加理所当然的事情，<strong>于是</strong>，我们承认这种善良为人天性的一部分，无论是因为这是天性而让我们活得更好，还是因为我们因它活得更好而以它为天性，性善论都可以有其意义。</p>
-<p>基因决定了我们，基因影响着我们，基因正是我们天赋之性的来源。一代又一代，我们接受着<strong>社会意识</strong>的影响，兼之我们的各自的<strong>“天性”</strong>，不断<strong>打磨影响</strong>着所谓“天赋之性”，数十万年前，为了生存，智人走出非洲，和世界各地的猿人战争；一万多年前，一个人受伤，有人为他包扎伤口，有人为他提供食物；几千年前，我们相信，士庶有别，而现在，我们相信，人人平等；从久远的彼端一路行至此时此刻，我们有一直相信的东西，也有改变了的普遍想法，一切都是为了更好地生存，这就是天赋之性的本质。</p>
-<p>所以，处于恶劣环境的人，往往偏向性恶，因为他潜意识意识到保持朴素正义不能使得他从目前的环境中获得足够的资源使得他可以生存得更好，那么偏向残忍本能便成为理所当然的事情。对于孩子乃至一些成年人，<strong>所谓教化</strong>，便是让他意识到何为目前环境需要的道德法则，以此构建这一类的社会关系。这也解释一些性无论的观点是从何而来。</p>
-<p>以上是我对“天赋之性”的理解，基于这种理解，我们可以将目光转向朱熹的人生观：不妨把先觉的圣人、君主这种所谓的<strong>“先觉者”</strong>，修改为由于阅历更多眼界更广，而很好地理解了一些社会观念并加以总结思考的<strong>“先行者”</strong>，他们并不能说是<strong>在先天认知上有超越之处</strong>，而是应该评价为<strong>在后天经验上有过人之处</strong>，所起到的<strong>主要作用</strong>是延续前者的思想，创立自己的观点，并将这些传递给后来者，从影响上看，一些好书可以起到这种教化者相似的作用。</p>
-<p>这种实际上是<strong>文明的赓续</strong>，是先前之人交予后来之人的认知经验，是社会意识的逐代更迭，我当然认可，我们的生存<strong>本身</strong>一定有着某种意义，使得我们一定要坚持前行，历经万代不衰，即使我不将它作为前进的理由和方向，我行走于这条道路上，是为了<strong>我所相信的东西</strong>，是为了我的成长和前进，是为了我可以自己创造出自己的意义，是为了将我的正义贯彻下去，为了<strong>我的正义</strong>，我想，甚至可以排斥与我的意义对抗的、<strong>“天所赋予的”生存意义</strong>。</p>
-<p>什么是人生的意义？什么是我的人生观？这就是我的回答。</p>
-<h3 id="思考题"><a href="#思考题" class="headerlink" title="思考题"></a>思考题</h3><h3 id="Q1"><a href="#Q1" class="headerlink" title="Q1:"></a>Q1:</h3><p>朱子理解的人类生存的意义是什么？并且，受朱子的启发，谈谈你对生存的意义的理解。</p>
-<h3 id="A1"><a href="#A1" class="headerlink" title="A1:"></a>A1:</h3><p>在四书章句集注序中，有“盖自天降生民，则即不莫与之以仁义礼智之性矣。”，显示出朱子对人之本质的理解：人是天所生之物，天生具有美德，问题在于不能完全表现出这种天性的美德，又思及朱子“存天理灭人欲”的理学思想，不难看出，朱熹的这部分观点，折射出他对人类生存意义的态度：即人类生存是为了逐渐接近天生的仁义礼智之性，并按天理而行动，以此达到更高的境界，便是人生的意义。<strong>简而言之</strong>，人生的意义便是使得个人品德不断臻于完善的过程，是实践道德准则的过程。</p>
-<p><strong>总体来讲</strong>，对于朱熹对<strong>不断提升自身修养</strong>的观点，我是<strong>完全认同</strong>的。因为我以为，人活着必然有一个意义，<strong>即使</strong>我不将它作为前进的理由和方向，我行走于这条道路上，是为了我所相信的东西，是为了我的成长和前进，是为了我可以自己创造出自己的意义，是为了将我的正义贯彻下去，为了我的正义，我想，甚至可以排斥与我的意义对抗的、“天所赋予的”生存意义。这就是我的回答。</p>
-<h3 id="Q2"><a href="#Q2" class="headerlink" title="Q2:"></a>Q2:</h3><p>为什么中国古代社会是一个崇尚圣人、皇帝的社会？为什么有的皇帝是个小孩子、是个无能的昏君，可是还得到全国的尊崇，尤其是那些有能力的大臣的尊崇？我们现代社会还需要这样么？</p>
-<h3 id="A2"><a href="#A2" class="headerlink" title="A2:"></a>A2:</h3><p>我认为，崇尚圣人和皇帝应当<strong>分开</strong>来理解，崇尚圣人，是对于其<strong>知识德行</strong>有所钦慕，<strong>希冀</strong>以此来对自身修养<strong>有所增益</strong>，当然，也有对贤者美好品行的<strong>单纯仰慕</strong>。</p>
-<p>崇尚皇帝，则是封建社会的格局所导致的一种<strong>必然结果</strong>。皇帝处于封建社会的<strong>核心</strong>位置，其政治地位和权力的存在，使得其不可避免成为一种<strong>抽象化的象征</strong>，无论推动这种象征的是皇帝本人的意志抑或是旁人的意志。这以后，忠君爱国的思想作为维系皇朝统治的根基之一，不断潜移默化地影响着古代社会的<strong>社会意识</strong>，皇帝的权威也成为了某种意义上的<strong>精神依靠</strong>。</p>
-<p>理解了上述皇帝的权威是<strong>如何脱离皇帝本人而延续下来</strong>，便可以轻易回答为什么即使皇帝本人是小孩子或者昏君，依然可以得到全国的尊崇，因为<strong>其本身的个性</strong>并不是尊君文化最<strong>关注</strong>的部分，尊君文化最看重的是他<strong>代表的抽象意义</strong>，即皇帝<strong>概念的本身</strong>。</p>
-<p><strong>现代社会需要这样吗？</strong>实际上问的也应该分为<strong>两方面</strong>理解，对于<strong>正确理论和合理实践</strong>的推崇毫无疑问是必要的，这是时代发展的<strong>必然要求</strong>。但是，是否应当保留合适的个人崇拜？我认为对贤能之人的推崇<strong>依然是必要的</strong>，而且我们<strong>无法避免</strong>对一些远胜于我们的人产生崇敬心理，即使这可能让人不妙地想起个人崇拜主义。<strong>然而，由人组成的社会，我们在比较、崇拜、追逐中增进自身，正是一条明朗可见的道路。</strong></p>
-<p>2023年5月2日整理发送。</p>
-]]></content>
-      <categories>
-        <category>杂谈</category>
-      </categories>
-      <tags>
-        <tag>阅读笔记</tag>
-        <tag>四书章句集注Q&amp;A</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>《四书章句集注》读书笔记——《大学》篇第二部分</title>
-    <url>/2023/05/05/B-0002/</url>
-    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言:"></a>前言:</h1><p>这里是我近期参加学校阅读课程的读书笔记和闲杂回答，<strong>不能完全代表</strong>本人观点，只是一些当时书写时的思考和文字记录。<br>其中问题，是学校老师提出，以让学生解答的。特此简要说明。<br>这些文字，可能会过些时日分批整理放出。用于填补我的博客内容。</p>
-<span id="more"></span>
-
-<h1 id="《大学》第二部分"><a href="#《大学》第二部分" class="headerlink" title="《大学》第二部分"></a>《大学》第二部分</h1><h2 id="讨论"><a href="#讨论" class="headerlink" title="讨论"></a>讨论</h2><h3 id="Q"><a href="#Q" class="headerlink" title="Q:"></a>Q:</h3><p><strong>你在生活中有类似“骑自行车”的状态么？</strong><br>导读中，我举过骑自行车的例子，就是说，我们与自己所处世界的关系，一般而言是<strong>主客对立</strong>的关系，因为我们总是<strong>使用理性思考隔断</strong>了我们自身与所处世界先在的<strong>一体关系</strong>。我们的身体、在世是先于理性思考的，这潜在地决定了我们的<strong>生存方式</strong>，在某种程度上，每个人都是被抛入这个世界。而当我们<strong>沉浸</strong>在自己所从事的事务时，那种与世界一体的状态就会显现出来，就像骑自行车时不会意识到骑车，车子不是外在的对象，而是我的身体一部分，车轮就是我的脚，我可以自觉地调整穿过窄道，也可以躲避行人、车辆，不让它们碰到自己……这是我们<strong>突破自己扮演的社会角色</strong>，突破社会对我们的支解和异化，从而<strong>回归自身</strong>，开启自觉人生的重要一面。这是人与世界原始关系的呈现。儒家叫“天人合一”“与仁同体”，佛教叫“三昧”，道家叫“逍遥游”</p>
-<h3 id="A"><a href="#A" class="headerlink" title="A:"></a>A:</h3><p>老师所言的“骑自行车的状态”，<strong>我来理解的话</strong>，就代表着<strong>天人合一的、如臂使指的</strong>圆融状态。</p>
-<p>更加确切地说，就是<strong>自如地运用乃至可以忽视所投入的精力和思考</strong>的状态。真要说的话，在我的记忆所及，我<strong>基本没有</strong>这种状态的经历（骑自行车倒是确实很自然）。如果让我来解释的话，这可能是因为我<strong>信奉****以理性控制感性，以逻辑克制冲动和冒进，用思考取代直觉的</strong>生活方式。这种行为模式由我<strong>对纯粹理性的赞同</strong>而来，形成了我基本的生存状态。我对于<strong>我必然处于社会角色中，必然以人的身份与世界交互，必然是与世界处于两极位置这一理解认知</strong>接受十分良好，并坚定贯彻着理性思考在我行为判断中的<strong>首要地位</strong>。</p>
-<p>我的理性要求做我行为的<strong>主人</strong>，成为所有行为的<strong>决定者</strong>。我希冀我在人生的任何一个时期回首，都<strong>从不</strong>为过去的决定和所后悔，所以，即使因此失去与世界的一体性，也并不为此伤怀。</p>
-<h3 id="思考题"><a href="#思考题" class="headerlink" title="思考题"></a>思考题</h3><h3 id="Q1"><a href="#Q1" class="headerlink" title="Q1:"></a>Q1:</h3><p>你觉得《大学》所说的<strong>治国、平天下的基础在于正心、诚意、格物致知</strong>，有道理么？为什么？</p>
-<h3 id="A1"><a href="#A1" class="headerlink" title="A1:"></a>A1:</h3><p>说治国、平天下的基础在于正心、诚意、格物致知，我觉得是<strong>有道理</strong>的。</p>
-<p>能定一国者，必然有<strong>端正的思想态度</strong>，必然应当有<strong>正确地认知分析</strong>客观事实的能力，而且必然有<strong>非常意志信念</strong>，方能治理好一个国家。</p>
-<p>当然，只有这些依然不足，我以为<strong>术道二者，同样重要</strong>，治国理政，须有方略。<strong>没有明亮的眼睛，看不见前进的方向；没有明亮的心，辨不清前进的原因。****内修心性，外修谋略</strong>，二者齐备，才能算是合格的治国人才。</p>
-<p>没有根基，注定无法建立楼阁，而建筑本身，<strong>不只</strong>需要根基，<strong>还</strong>需要合理的架构、坚实的材料、精湛的工艺。治国平天下，同理。</p>
-<h3 id="Q2"><a href="#Q2" class="headerlink" title="Q2:"></a>Q2:</h3><p>《大学》乃至中国传统文化重道德、人的明德之开显，忽视科学、理性等，而正是我们这个时代所需要的，请问，<strong>你觉得怎样在科技、经济大发展的今天保持我们的传统文化？</strong></p>
-<h3 id="A2"><a href="#A2" class="headerlink" title="A2:"></a>A2:</h3><p>说来道去，依然只有<strong>“取其精华”</strong>四字可谈。</p>
-<p>古为今用，着重于<strong>“用”</strong>字，虽然中国传统文化忽视科学（我并不认为它忽视理性），但是依然有足够璀璨而重要的<strong>思想</strong>蕴含其中。譬如说，“周虽旧邦，其命维新”的革新精神；譬如说，“苟利国家生死以，岂因祸福避趋之”的爱国情怀；譬如说，“三人行必有我师焉”的谦虚好学；譬如说“兼爱非攻”的博爱理想主义……</p>
-<p>题中说《大学》乃至中国传统文化重道德、人的明德之开显。重道德是坏事吗？并不是。那么我们是不是已经可以得出一部分结论，即在本时代的道德建设中，取传统文化中符合现代公序良俗的部分是<strong>非常有益</strong>的呢？</p>
-<p>再回到《大学》乃至中国传统文化忽视科学的一点，显然这是这种文化的一大短板，然而也并不是说，我们学习传统文化就要忽视科学，我相信中国古人的智慧里，<strong>实用理性</strong>是非常重要的一块，以前忽视科学，是没有<strong>认知</strong>到科学<strong>在社会发展中的重要性</strong>，那么现在历史给了我们答案，我们自然可以将注重科学与传统文化<strong>一同融合</strong>使用，<strong>需要信念的时候看向历史，需要力量的时候握住科学。</strong></p>
-<p>总而言之，在需要什么的时候，去做什么，这样子，传统文化的保存自然不是需要特别讨论的东西了。</p>
-<p>2023年5月5日整理发送</p>
-]]></content>
-      <categories>
-        <category>杂谈</category>
-      </categories>
-      <tags>
-        <tag>阅读笔记</tag>
-        <tag>四书章句集注Q&amp;A</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>《四书章句集注》读书笔记——《大学》篇第三部分</title>
-    <url>/2023/05/10/B-0003/</url>
-    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言:"></a>前言:</h1><p>这里是我近期参加学校阅读课程的读书笔记和闲杂回答，<strong>不能完全代表</strong>本人观点，只是一些当时书写时的思考和文字记录。<br>其中问题，是学校老师提出，以让学生解答的。特此简要说明。<br>这些文字，可能会过些时日分批整理放出。用于填补我的博客内容。</p>
-<span id="more"></span>
-
-<h1 id="《大学》第三部分"><a href="#《大学》第三部分" class="headerlink" title="《大学》第三部分"></a>《大学》第三部分</h1><h2 id="讨论"><a href="#讨论" class="headerlink" title="讨论"></a>讨论</h2><h3 id="Q"><a href="#Q" class="headerlink" title="Q:"></a>Q:</h3><p>关于“格物致知”的讨论<br>朱子在《大学章句》中补充了“格物致知”一章，“格物”是要<strong>穷事物之道理</strong>，这同时也是<strong>穷心之理</strong>的过程，其结果就是物之理、心之理豁然贯通。在掌握事物之理和心之理的情况下，天下一切尽在掌握，自然可以坦然面对，即开始了诚意、正心、修身直到治国、平天下。<strong>是否我们可以说，如果没有朱子“格物致知”打通事物之理与心之理，那么，我们个人的“诚意”就没有办法导致“天下平”的现实结果？南大校歌第一句也说“大哉一诚天下动”，若没有朱子的“格物致知”作为背景，是不是也不能做到呢？</strong></p>
-<h3 id="A"><a href="#A" class="headerlink" title="A:"></a>A:</h3><p>想要解答以上两个问题，不妨<strong>假设</strong>的确地去除了格物致知这一纽带，来想象一下，会是什么样子。</p>
-<p><strong>没有格物致知</strong>，即便我们个人“诚其意”，显然也是<strong>脱离了现实基础</strong>的诚意，<strong>于改造世界并无实在用处</strong>。倘若以为脱离实际的诚意可以确实地为世界提供正向推动力，那无疑是<strong>落入了唯心主义的论调</strong>。不是说一个人相当有诚意地说：“我想使天下太平”，天下便当真如愿的。是有此心，为之调查研究，付出行动的努力，才有达成目标的<strong>实际可能</strong>。</p>
-<p>“大哉一诚天下动”应该和实际背景比较<strong>分离</strong>，在我看来，这句歌词更像是题词者对大学生道德规范的一种<strong>理想希望</strong>，<strong>而非</strong>是对既定道理的强调。如果一定要从<strong>实际可行性</strong>上来考虑这句文辞，那么答案也是确定的：是的，“诚其意”是“天下动”的<strong>一大步</strong>，而由此至彼的<strong>漫长道路</strong>中，无法缺少“格物致知”的<strong>必要理解</strong>。</p>
-<h3 id="思考题"><a href="#思考题" class="headerlink" title="思考题"></a>思考题</h3><h3 id="Q1"><a href="#Q1" class="headerlink" title="Q1:"></a>Q1:</h3><p>儒家解决问题、矛盾的思路是由内而外的，将解决问题的根本放置在“明明德”上，而我们现实生活中，当遇到问题时，总会先考察问题出现的原因，找出解决的思路，然后去解决，并涉及到“明明德”。那么，<strong>你认为儒家和现实中我们的解决问题的思路，哪个好？为什么？</strong></p>
-<h3 id="A1"><a href="#A1" class="headerlink" title="A1:"></a>A1:</h3><p>这是<strong>两种思考角度</strong>的原因，而不是<strong>单纯</strong>二选一的问题。</p>
-<p>儒家这种<strong>由内而外</strong>的思路，相当于把<strong>人</strong>作为问题的<strong>主要因素</strong>，也就是说，认为<strong>人的认知和道德水平极大程度地影响着生活并导致了种种问题</strong>，这在<strong>生产力发展速度并不爆炸的古代</strong>，可以统帅大部分情况。加之人才是认识改造世界的<strong>主体</strong>，人从自身出发，<strong>只能改变自身的处事方法</strong>才能达成解决问题的结果，显然，这种方式是十分可行的。</p>
-<p>至于先考察问题出现的原因，就是从小处去现实发现<strong>表层理由</strong>，再<strong>逐渐深入</strong>的方式，我认为和上述思路实际上是<strong>殊途同归</strong>的，也就是说，在现实生活中，我一向推崇<strong>两种思路都推演</strong>的处理方法，思考地更加全面立体，可以在解决问题上更具有帮助。毕竟，<strong>没有任何问题的解决，离得开人的改变。</strong></p>
-<h3 id="Q2"><a href="#Q2" class="headerlink" title="Q2:"></a>Q2:</h3><p>你认为<strong>“慎独”</strong>的<strong>儒学</strong>意义和<strong>现代</strong>意义是什么？</p>
-<h3 id="A2"><a href="#A2" class="headerlink" title="A2:"></a>A2:</h3><p><strong>慎独</strong>，即在独处时谨慎地注意自己的行为举止，使之符合高尚的道德规范。</p>
-<p>从<strong>儒学意义</strong>上来看，慎独是为儒生提供了一个<strong>较高的自我约束的道德要求</strong>，即<strong>不单纯因为社会要求原因展现高素质</strong>，而是在生活状态中<strong>一以贯之，以期达到君子的境界</strong>。这种道德要求是<strong>自发</strong>的，它所导致的<strong>一个明显的积极影响</strong>是，以这种要求时时叩问自身的儒生，更自然地在社会生活中达成这种状态（只要他不将此作为单纯的空话来看待）。</p>
-<p>从<strong>现代意义</strong>上来讲，我们完全可以将这种理念从儒生推广为一种<strong>正向的生活方式</strong>，也就是说，以这种理念说服当代<strong>部分态度较诚恳、觉悟较高</strong>的年轻人，促使其达成<strong>更为自省</strong>的人生观，进而<strong>辐射</strong>其身边的其他年轻人，由此逐步<strong>增强社会意识</strong>，<strong>长此以往，何愁无有尧舜之风姿？</strong></p>
-<p>2023年5月10日整理发送</p>
-]]></content>
-      <categories>
-        <category>杂谈</category>
-      </categories>
-      <tags>
-        <tag>阅读笔记</tag>
-        <tag>四书章句集注Q&amp;A</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>《四书章句集注》读书笔记——《大学》篇第四部分（终章）</title>
-    <url>/2023/05/10/B-0004/</url>
-    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言:"></a>前言:</h1><p>这里是我近期参加学校阅读课程的读书笔记和闲杂回答，<strong>不能完全代表</strong>本人观点，只是一些当时书写时的思考和文字记录。<br>其中问题，是学校老师提出，以让学生解答的。特此简要说明。<br>这些文字，可能会过些时日分批整理放出。用于填补我的博客内容。</p>
-<span id="more"></span>
-
-<h1 id="《大学》第四部分"><a href="#《大学》第四部分" class="headerlink" title="《大学》第四部分"></a>《大学》第四部分</h1><h2 id="讨论"><a href="#讨论" class="headerlink" title="讨论"></a>讨论</h2><h3 id="Q"><a href="#Q" class="headerlink" title="Q:"></a>Q:</h3><p><strong>谈谈你对儒家财富观的看法</strong><br>在以前有一副对联：“洪范五福先言富,大学十章半理财”。后面那句说的是《大学》里面有很多关于财富、理财的看法，比如“君子先慎乎德。有德此有人，有人此有土，有土此有财”、“德者本也，财者末也”，“财聚则民散，财散则民聚”，“生财有大道，生之者众，食之者寡，为之者疾，用之者舒，则财恒足矣”，“仁者以财发身，不仁者以身发财”等等。儒家的财富观基本上是<strong>以德为本，有德即有财</strong>的逻辑。但现代社会在财富上的成功，<strong>更强调人的眼光、市场、技术、资金等因素</strong>，与个人道德水平似乎没有直接关系。对此，你怎么看?</p>
-<h3 id="A"><a href="#A" class="headerlink" title="A:"></a>A:</h3><p>我觉得这是出于大学的这部分理论<strong>名为</strong>讲理财，实际上依然为<strong>教化子弟、树立道德模范</strong>为目标，其言“仁者以财发身，不仁者以身发财”，实际上已经对题中所指现象做出来<strong>阐释</strong>：仁者修养道德，所以财虽然不是第一目标，却可以顺水推舟地获得；不仁者以财为目标，苦心经营，终于可能得到财富。推之为题意便是：儒家认为“君子”应当拥有以德为本、有德既有才的逻辑，此处的财，也可以从<strong>更加广的范围</strong>理解，而不必囿于物质的财富；而倘若无德或德行较弱，亦可以术获财。<strong>大道与小术</strong>的关系，正是如此。</p>
-<p>我看到有些同学从<strong>社会环境不同</strong>来试图解读这种情况，我认为是<strong>走错了方向</strong>，<strong>古今商贾，未见有品行相差颇大之说</strong>：自古以来，看轻商贾奸恶的便多有人在，并非是到了今日忽然而言，古代也少闻有德之商，可见社会构架的变迁，并没有对这一方面造成<strong>颠覆性</strong>的改变。这样想来，我觉得我上述所言大道小术的概念，可能<strong>更加贴近问题的原貌一些</strong>。</p>
-<h3 id="思考题"><a href="#思考题" class="headerlink" title="思考题"></a>思考题</h3><h3 id="Q1"><a href="#Q1" class="headerlink" title="Q1:"></a>Q1:</h3><p>中国古代是“家国同构”，所以齐家可以导向国治，<strong>我们现代社会，家国同构么？如果同构，怎么发挥家庭在“治国”中的作用？如果不同构，那么，家庭在国家治理中处于一个什么位置？</strong></p>
-<h3 id="A1"><a href="#A1" class="headerlink" title="A1:"></a>A1:</h3><p><strong>我认为</strong>，我们现代社会家国是<strong>不同构</strong>的（中国）。在现代中国，家庭在国家治理中，处于<strong>最小的社会生产单位</strong>的地位，是<strong>基层治理需要注重的部分</strong>。但是，家庭以上的政府体系，实际上自中央到地方，虽然的确拥有一套架构相近的分部门体系，<strong>然而却绝不能说是和家庭相近的</strong>。</p>
-<p>有言之：“治大国如烹小鲜”，对于家庭构架的<strong>理解</strong>，可以帮助治国理政者从<strong>宏观</strong>上理解社会上很多<strong>显性问题</strong>，并更好地决策<strong>与之相关的政策问题</strong>。</p>
-<p>也同样需要我们思考的是：家庭的氛围可以<strong>影响</strong>个人的发展，如何实现更好的家庭教育，使得整体<strong>社会素质</strong>更加高，也是对于国家治理有所帮助的环节。</p>
-<h3 id="Q2"><a href="#Q2" class="headerlink" title="Q2:"></a>Q2:</h3><p>根据《大学》，儒家理想的国家治理是“以义为利”的，而现代的国家是“以利为利”的，<strong>你认为有道理么？为什么？</strong></p>
-<h3 id="A2"><a href="#A2" class="headerlink" title="A2:"></a>A2:</h3><p>在这以前，我对《大学》里这种比较<strong>与现实功利相对</strong>的话，一直就抱有这样一种态度：<strong>它的实际目的是教化而非指导，要提出的并非普世的概念而是可以引导社会向仁善发展的</strong>，到了这里，我依然觉得这种判断是正确的，但是这种理想化确实有些<strong>过于虚浮</strong>了。</p>
-<p>理想的国家治理是“以义为利”的，这种理想化，在我看来，只会出现在<strong>规模较小、社会同一性较高、国民平均素养极高</strong>的<strong>假想</strong>国家中。只要这个国家的<strong>设计</strong>稍稍立足于现实，就会发现，<strong>单纯以义为利的行为模式</strong>在其他国家都以利为利的情况下是<strong>站不住脚</strong>的。<strong>首先</strong>，<strong>不同人</strong>对义的<strong>理解</strong>是<strong>不同</strong>的，这就意味着单纯以义为利的模式下，国家的<strong>方向感是不足的</strong>，没有对义的<strong>同一理解</strong>，<strong>意味着国民内部矛盾会较大</strong>；其次，纯粹的理想主义者，难以应对<strong>复杂多变的现实情况</strong>，这就意味着<strong>国家立国的稳定性是堪忧的</strong>；最后，我认为，<strong>有利兼有义</strong>，才是国家较为<strong>兼顾理想与现实</strong>的治理方式。</p>
-<p>所以，我的态度已经很明显了：<strong>道德上的国家，需要建立在现实中的国家之上。</strong></p>
-<p>2023年5月10日整理发送</p>
-]]></content>
-      <categories>
-        <category>杂谈</category>
-      </categories>
-      <tags>
-        <tag>阅读笔记</tag>
-        <tag>四书章句集注Q&amp;A</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>《四书章句集注》读书笔记——《中庸》篇第一部分</title>
-    <url>/2023/05/10/B-0005/</url>
-    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言:"></a>前言:</h1><p>这里是我近期参加学校阅读课程的读书笔记和闲杂回答，<strong>不能完全代表</strong>本人观点，只是一些当时书写时的思考和文字记录。<br>其中问题，是学校老师提出，以让学生解答的。特此简要说明。<br>这些文字，可能会过些时日分批整理放出。用于填补我的博客内容。</p>
-<span id="more"></span>
-
-<h1 id="《中庸》第一部分"><a href="#《中庸》第一部分" class="headerlink" title="《中庸》第一部分"></a>《中庸》第一部分</h1><h2 id="讨论"><a href="#讨论" class="headerlink" title="讨论"></a>讨论</h2><h3 id="Q"><a href="#Q" class="headerlink" title="Q:"></a>Q:</h3><p>“问题”与“主义”的讨论<br>读了胡适的《多研究些问题，少谈些主义》后，<strong>谈谈你对“问题”与“主义”的看法。</strong></p>
-<h3 id="A"><a href="#A" class="headerlink" title="A:"></a>A:</h3><p>如果要讲“问题”与“主义”的看法，我会想起<strong>弗洛姆</strong>书中一个多次提及的概念：<strong>先知和祭司</strong>。他认为，历史上的一些<strong>提出超前见解的人</strong>，可以被称为先知，他们的学说流传下来，为一些人所<strong>重复并传播</strong>，<strong>聚拢起信奉这种理念的人</strong>，这些人就是祭司。我觉得，如果用中国化的翻译，这就是<strong>圣人和后来的学者</strong>的关系。</p>
-<p>圣人的见解，在他的时代可能是<strong>超前的智慧</strong>，是对<strong>社会现状</strong>的一种比较具有<strong>建设性意义</strong>的<strong>评价和理解</strong>，但是对于后来的时代，<strong>并不一定是</strong>能够完全适应时代特点的。如果希望继承他学派的后来学者<strong>不能加以变通</strong>而是<strong>一味地复述</strong>所谓“先贤之语”，只像教会里的牧师<strong>空洞地</strong>传递教典经书，那么再好的学说也会不可避免地走向<strong>僵化</strong>。</p>
-<p>无论学派甚至教派，后继试图传播前人主要观点而<strong>不加自己思考</strong>者，都是<strong>差劲的祭司</strong>，思想<strong>之所以闪着耀耀光辉</strong>，<strong>正是因为</strong>它的确能够<strong>真是地贴合时代的需要</strong>。相对的，如何运用主义，就必须是<strong>切合实际</strong>的，必须对各项主义中的内容<strong>深入地思考</strong>，以期可以完美地结合理论和现实，达到切实可用于“问题”的目的。</p>
-<p>前日所读的一些书籍（这里指《美国反对美国》节选），也大抵有一些很清晰的论述，是讲<strong>实用的理论才是真正好的理论，可建设国家的理论</strong>，应当避免对它理解的<strong>教条主义的阻碍</strong>。</p>
-<p>那么<strong>反过来说</strong>，在对于主义运用要求似乎如此高的情况下，我国广泛地传播推崇国家意识形态也就是中国特色社会主义的理论片段有什么价值吗？</p>
-<p>我认为这是有<strong>很大价值</strong>的。<strong>在我看来</strong>，这种融入日常生活的宣传方式，传递着国家所希望形成的<strong>社会意识</strong>，在一定意义上可以提高人民的共识，使得人民对政府的理解实际上是更深的，只要政府有能力推进国家保持快速发展，人民生活水平不断提高，在前后对比之下，可以使得人民对这种凝心定气的主义认可度更高，也就<strong>潜移默化地</strong>提高了社会的稳定度。而且，即使只是浮光掠影地接触了一些高度概括的理论，也会<strong>在心底埋下一颗种子</strong>，等到其人确实逐渐意识到这种主义的益处，拾起书卷来思考学习之际，就<strong>更能把它作为一个与生活实际结合起来的、立足于实践基础并可以回馈指导实践的东西来看待</strong>，这样，也一定程度上能够减少教条主义的影响。又因为这种宣传的普遍性，可以<strong>较为乐观地</strong>认为，这是有利于下一代中对这些主义有着不错认知的人数较多的。</p>
-<p>*可能可以注意到，我避免了提及胡适，因为我并不喜欢其人，简要说明。<br>从理论和实际的方面，我试着写了一部分的文字来阐述我的想法，<strong>其中浅陋不足之处，还望包涵</strong>。</p>
-<h3 id="思考题"><a href="#思考题" class="headerlink" title="思考题"></a>思考题</h3><h3 id="Q1"><a href="#Q1" class="headerlink" title="Q1:"></a>Q1:</h3><p>我们读了《大学章句序》和《中庸章句序》，<strong>你还认为宋代是积贫积弱，软弱无能的时代么？说说你的看法。</strong></p>
-<h3 id="A1"><a href="#A1" class="headerlink" title="A1:"></a>A1:</h3><p>我很好奇，为什么会提出这样的问题？<br><strong>什么是积贫积弱？</strong>以宋财力之巨、商业之繁荣，有我评价它积贫的可能吗？以宋后期军事之软弱、时运之不济，<strong>何必</strong>试图将积弱的评价从它身上去除？至于软弱无能，莫非有错？<br>我妄自揣测一下，莫非老师认为，读过大学中庸，就该有可能认为宋并不积弱、并不软弱无能？<strong>此言谬也。</strong><br>在前者主义和问题的讨论中，我<strong>已经强调</strong>，可以真正建设国家的理论，贴合实际的理论，才是好的理论。宋代的<strong>军事上软弱</strong>（此处软弱并非单指能力，其实宋的失败并不完全落在能力的软弱，更有政治意识的软弱），是<strong>不可变动的事实</strong>，如果要用儒家这些理论为它修饰什么，就也算是空守主义妄图指导现实了。退一步来说，倘若一个人便真说，读了大学中庸，便觉宋非本来所认为的积弱、软弱无能，那么我猜测他的着眼点大抵要落在<strong>宋的忍让是符合儒家传统</strong>的了。这么讲的话，<strong>似乎是对的</strong>，但是<strong>实在大为不妥</strong>。儒家似乎几千年来都是占据我国政坛上相当重要地位的，但是回顾往昔自然可以发现，大多<strong>有切实能力的人臣</strong>，<strong>很少僵化</strong>地念什么之乎者也、又或是说空谈儒学以至于影响朝政，而是能够<strong>化之为己所用</strong>。如果要说宋的后期落魄是儒生思维所致，并非不可，不过这种观点，<strong>换言之</strong>，便是批判那些官员等确实只是腐儒一群，甚至因为腐儒思维毁掉了一个国家。<strong>我想，他们本人都不会赞同用这种方式为自己的政治水平低下开脱。</strong><br>所以我的态度是一贯的：宋代后期的军事软弱无可辩驳。如果一定想要加些辩解，那就是部分宋代官员可能确实读书读傻了，以至于政治水平相当低下。</p>
-<h3 id="Q2"><a href="#Q2" class="headerlink" title="Q2:"></a>Q2:</h3><p>朱子批判了佛老“弥近理而大乱真”，<strong>你能举出你生活中遇到的“弥近理而大乱真”的例子么？</strong></p>
-<h3 id="A2"><a href="#A2" class="headerlink" title="A2:"></a>A2:</h3><p>生活中的例子的话，可以说，追逐热点和流量的自媒体，有时候<strong>甚至不一定弥近理</strong>，但是可以算是大乱真了。</p>
-<p><strong>远的</strong>譬如为求流量博人眼球，对社会热点不顾真假胡乱输出情绪的那些的自媒体，<strong>由于实在低劣，是无理之言，便不多谈了</strong>。</p>
-<p><strong>近处</strong>与我专业息息相关的部分来说，对于科技热点的狂热炒作，是一种<strong>典型的例子</strong>。</p>
-<p>无论是ChatGPT大语言模型还是马斯克的“火星殖民”的狂论，总能看到大量自媒体疯狂吹捧这是超越性的科技之光，也能看到一些追逐热点风口、试图“蹭热度”的所谓“专业人士”夸夸其谈，由于<strong>专业准入门槛毕竟存在</strong>，普罗大众对这种言论还是持有很大程度相信的态度的。这就导致即使<strong>五分被夸成了十分、画饼式自我炒作浮夸之至</strong>，也有很多人奉为真理。由于互联网碎片化搜索的普及，<em>似乎这些言论也可相互印证</em>（或者部分就是通稿或洗稿），而且科技企业的炒作总是七分真三分假，<strong>力求夸大自身技术的意义</strong>，从某种意义上，这就确实“弥近理”了，也就有“大乱真”的威胁。</p>
-<p><strong>需要记住的是，炒作舆论是互联网公司的本能，追逐热点以致一味夸大是科技自媒体的习性，对于他们的夸夸其谈，最好只相信一小半。</strong></p>
-<p>就此住笔了。</p>
-<p>2023年5月10日整理发送</p>
-]]></content>
-      <categories>
-        <category>杂谈</category>
-      </categories>
-      <tags>
-        <tag>阅读笔记</tag>
-        <tag>四书章句集注Q&amp;A</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>vscode相对路径报错原因</title>
-    <url>/2023/05/04/E-0001/</url>
-    <content><![CDATA[<h1 id="情况"><a href="#情况" class="headerlink" title="情况"></a>情况</h1><p>今天在vscode用python尝试opencv库基础操作——调用图片并打开时，发生了相对路径不断报错，但绝对路径可以直接打开的情况。</p>
-<span id="more"></span>
-<p>前提：vscode打开的文件夹是pythons</p>
-<p>绝对路径代码如下：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> cv2</span><br><span class="line">img = cv2.imread(<span class="string">&#x27;E:/pythons/cvdeal/datas/orig/2092.png&#x27;</span>,<span class="number">0</span>)</span><br><span class="line">cv2.imshow(<span class="string">&#x27;2092&#x27;</span>,img)</span><br><span class="line">cv2.waitKey(<span class="number">0</span>)</span><br></pre></td></tr></table></figure>
-
-<p>出错的相对路径代码如下：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> cv2</span><br><span class="line">img = cv2.imread(<span class="string">&#x27;./datas/orig/2092.png&#x27;</span>,<span class="number">0</span>) <span class="comment">#灰度打开 #./代表省略前面文件夹的路径</span></span><br><span class="line">cv2.imshow(<span class="string">&#x27;2092&#x27;</span>,img)</span><br><span class="line">cv2.waitKey(<span class="number">0</span>)</span><br></pre></td></tr></table></figure>
-
-<h1 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h1><p>vscode中，默认的同级文件夹是“打开”的文件夹，而不是执行文件所处的当前文件夹。<br>也就是说，当vscode打开了我的文件夹”E:&#x2F;pythons&#x2F;“，而我执行的文件处于”pythons”文件夹下的文件夹”cvdeal”时，相对路径的书写应该写为’.&#x2F;cvdeal&#x2F;datas&#x2F;orig&#x2F;2092.png’</p>
-<h1 id="修改后代码形式"><a href="#修改后代码形式" class="headerlink" title="修改后代码形式"></a>修改后代码形式</h1><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> cv2</span><br><span class="line">img = cv2.imread(<span class="string">&#x27;./cvdeal/datas/orig/2092.png&#x27;</span>,<span class="number">0</span>) <span class="comment">#灰度打开</span></span><br><span class="line">cv2.imshow(<span class="string">&#x27;2092&#x27;</span>,img)</span><br><span class="line">cv2.waitKey(<span class="number">0</span>)</span><br></pre></td></tr></table></figure>
-
-<h1 id="其他修改方式-（推荐）"><a href="#其他修改方式-（推荐）" class="headerlink" title="其他修改方式 （推荐）"></a>其他修改方式 （推荐）</h1><p>建议直接打开目前处理的文件夹，不要打开它的父文件夹（认真）。<br>这样总体方便，而且方便代码的迁移运用。</p>
-<h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><p>更改正确后，我才想起之前在其他问题的编程中好像也有过这个问题，但是当时解决完很快又忘了（不长记性……），所以特此记录，也希望可以帮到其他遇到此问题的人。</p>
-<p>2023年5月4日_Cu.Li.Zn</p>
-]]></content>
-      <categories>
-        <category>基础报错处理</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-        <tag>vscode</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>为已经配置过python的vscode配置anaconda</title>
-    <url>/2023/05/11/E-0002/</url>
-    <content><![CDATA[<h1 id="情况"><a href="#情况" class="headerlink" title="情况"></a>情况</h1><p>下载了anaconda,在vscode已经配置过python相关插件的情况下，修改其中python源为anaconda中自带的python,以便使用其中库。</p>
-<span id="more"></span>
-<p>前提：anaconda已经正确下载在电脑上，我使用的是官网最新源（2023.03）;vscode已经配置过必要python编程插件<br>在这种情况下，虽然已经为anaconda配置了环境变量，但是vscode中不能使用anaconda.</p>
-<h1 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h1><p>vscode中，在之前的配置中已经将python编辑器默认指向电脑上原本下载版本的python</p>
-<h1 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h1><p>1、在vscode界面中，在上方搜索框中（也可以由Ctrl+Shift+p唤起）输入</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt; select interpreter</span><br></pre></td></tr></table></figure>
-<p>出现如下情况<br><img src="https://z4a.net/images/2023/05/11/python.png"/></p>
-<p>此时，点选第一个选项,出现如下选择<br><img src="https://z4a.net/images/2023/05/11/16ada08e8d85207fcdc0bf382ec3df98.png"/><br>选择你所下载的anaconda包中的python即可</p>
-<h1 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h1><p><a href="https://blog.csdn.net/qq_51831335/article/details/126757014">CSDN:全网最简约的Vscode配置Anaconda环境（百分百成功）
-</a></p>
-<p>2023年5月11日_Cu.Li.Zn_整理发送</p>
-]]></content>
-      <categories>
-        <category>软件配置</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-        <tag>vscode</tag>
-        <tag>vscode配置</tag>
-        <tag>编程相关</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>神经网络自学（一）线性回归</title>
-    <url>/2023/05/05/S-0001/</url>
-    <content><![CDATA[<h1 id="线性回归"><a href="#线性回归" class="headerlink" title="线性回归"></a>线性回归</h1><p>注： 本文本为我自学准备完成期末课程设计时所做笔记，主要内容来自 <a href="https://zh.d2l.ai/chapter_linear-networks/linear-regression.html">这个网站</a><br>特此说明。</p>
-<span id="more"></span>
-
-<h2 id="什么是线性回归？"><a href="#什么是线性回归？" class="headerlink" title="什么是线性回归？"></a>什么是线性回归？</h2><p>一个最简单而且最流行的回归模型<br>如<strong>y&#x3D;kx+b</strong><br>可以处理问题类型：预测数值</p>
-<h2 id="线性回归的基本元素-x2F-前提假设"><a href="#线性回归的基本元素-x2F-前提假设" class="headerlink" title="线性回归的基本元素&#x2F;前提假设"></a>线性回归的基本元素&#x2F;前提假设</h2><p>自变量x和因变量y，它们之间的关系是<strong>线性</strong>的<br>假设噪声比较<em>正常</em>，如噪声遵循正态分布等</p>
-<h3 id="名词解释"><a href="#名词解释" class="headerlink" title="名词解释"></a>名词解释</h3><p><strong>训练数据集&#x2F;训练集</strong>：用于训练模型而准备的真实数据集<br><strong>样本&#x2F;数据点&#x2F;数据样本</strong>：训练数据集中每一行数据</p>
-<p><strong>标签&#x2F;目标</strong>：试图预测的对象<br><strong>特征&#x2F;协变量</strong>：预测依据的自变量</p>
-<h3 id="常见表示"><a href="#常见表示" class="headerlink" title="常见表示"></a>常见表示</h3><p>n表示数据集中样本数</p>
-<h2 id="线性模型"><a href="#线性模型" class="headerlink" title="线性模型"></a>线性模型</h2><p>常见形式为：<br>y&#x3D;w1x1+w2x2+……+wdxd+b<br>其中：<br>wi为权重（weight），决定每个特征对预测值的影响<br>b为偏置&#x2F;偏移量&#x2F;截距<br>从数学上，上式是输入特征的一个仿射变换<br>总体上，我们需要寻找这个模型。</p>
-<p>噪声的作用：处理可能存在的少量观测误差</p>
-<h2 id="损失函数"><a href="#损失函数" class="headerlink" title="损失函数"></a>损失函数</h2><p>想象一个所有特征差值平方和的平均数<br>就是那个。<br>当求得模型在所有训练样本上总损失最小时，即为我们所求模型。</p>
-<h2 id="解析解"><a href="#解析解" class="headerlink" title="解析解"></a>解析解</h2><p>一个公式表达的解<br>对问题限制很严格，导致它无法广泛应用在深度学习里。</p>
-<h2 id="随机梯度下降"><a href="#随机梯度下降" class="headerlink" title="随机梯度下降"></a>随机梯度下降</h2><p>ps：以下部分原文复制较多</p>
-<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>梯度下降（gradient descent）： 这种方法几乎可以优化所有深度学习模型。 它通过不断地在损失函数递减的方向上更新参数来降低误差。</p>
-<h3 id="什么是随机梯度下降"><a href="#什么是随机梯度下降" class="headerlink" title="什么是随机梯度下降"></a>什么是随机梯度下降</h3><p>最简单：计算损失函数（数据集中所有样本的损失均值） 关于模型参数的导数（在这里也可以称为梯度） 但实际中的执行可能会非常<strong>慢</strong>：因为在每一次更新参数之前，我们<strong>必须遍历整个数据集</strong>。 因此，我们通常会在每次需要计算更新的时候<strong>随机抽取一小批样本</strong>， 这种变体叫做<strong>小批量随机梯度下降</strong>（minibatch stochastic gradient descent）</p>
-<p>在每次迭代中，我们首先随机抽样一个小批量， 它是由固定数量的训练样本组成的。 然后，我们计算小批量的平均损失关于模型参数的导数（也可以称为梯度）。 最后，我们将梯度乘以一个预先确定的正数，并从当前参数的值中减掉。<br>总结一下，算法的步骤如下： （1）初始化模型参数的值，如随机初始化； （2）从数据集中随机抽取小批量样本且在负梯度的方向上更新参数，并不断迭代这一步骤。</p>
-<p>在训练了预先确定的若干迭代次数后（或者直到满足某些其他停止条件后）， 我们记录下模型参数的估计值，表示为w,b。 但是，即使我们的函数确实是线性的且无噪声，这些估计值也不会使损失函数真正地达到最小值。 因为算法会使得损失向最小值缓慢收敛，但却不能在有限的步数内非常精确地达到最小值。</p>
-<h2 id="用模型进行预测"><a href="#用模型进行预测" class="headerlink" title="用模型进行预测"></a>用模型进行预测</h2><p>给定特征估计目标的过程通常称为预测（prediction）或推断（inference）</p>
-<h2 id="矢量化加速"><a href="#矢量化加速" class="headerlink" title="矢量化加速"></a>矢量化加速</h2><p>矢量化代码通常会带来数量级的加速。<br><strong>建议直接进入上述网站查看</strong></p>
-<h2 id="正态分布与平方损失"><a href="#正态分布与平方损失" class="headerlink" title="正态分布与平方损失"></a>正态分布与平方损失</h2><p><strong>建议直接进入上述网站查看</strong><br>因为我这边不会打公式（不）</p>
-<h2 id="从线性回归到深度网络"><a href="#从线性回归到深度网络" class="headerlink" title="从线性回归到深度网络"></a>从线性回归到深度网络</h2><p>将线性回归看作单词神经网络</p>
-<img src="https://z4a.net/images/2023/05/05/danceng.png"/>
-
-<p>图示输出层即该神经网络的唯一计算神经元。<br>所以该神经网络层数为1，该模型为仅由单个人工神经元组成的神经网络，或称单层神经网络。</p>
-<p>对于线性回归，每个输入都与每个输出（在本例中只有一个输出）相连， 我们将这种变换（ 图3.1.2中的输出层） 称为<strong>全连接层</strong>（fully-connected layer）或称为<strong>稠密层</strong>（dense layer）。</p>
-]]></content>
-      <categories>
-        <category>学习笔记</category>
-      </categories>
-      <tags>
-        <tag>编程相关</tag>
-        <tag>神经网络</tag>
       </tags>
   </entry>
 </search>
