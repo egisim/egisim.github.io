@@ -51,7 +51,6 @@
 ]]></content>
       <categories>
         <category>编程相关</category>
-        <category>python</category>
         <category>软件配置</category>
       </categories>
       <tags>
@@ -239,7 +238,7 @@
 ]]></content>
       <categories>
         <category>编程相关</category>
-        <category>vscode</category>
+        <category>错误处理</category>
       </categories>
       <tags>
         <tag>python</tag>
@@ -317,7 +316,7 @@
 ]]></content>
       <categories>
         <category>编程相关</category>
-        <category>python</category>
+        <category>学习笔记</category>
       </categories>
       <tags>
         <tag>Numpy</tag>
