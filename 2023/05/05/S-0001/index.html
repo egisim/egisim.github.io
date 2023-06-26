@@ -17,7 +17,7 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"culizn.cn","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"all","padding":18,"offset":17,"onmobile":true},"copycode":{"enable":true,"show_result":false,"style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":true,"pangu":true,"comments":{"style":"tabs","active":"livere","storage":null,"lazyload":true,"nav":null,"activeClass":"livere"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideDownBigIn"}},"path":"search.xml"};
+    var CONFIG = {"hostname":"culizn.cn","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"all","padding":18,"offset":17,"onmobile":true},"copycode":{"enable":true,"show_result":false,"style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":true,"comments":{"style":"tabs","active":"livere","storage":null,"lazyload":true,"nav":null,"activeClass":"livere"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideDownBigIn"}},"path":"search.xml"};
   </script>
 
   <meta name="description" content="线性回归注： 本文本为我自学准备完成期末课程设计时所做笔记，主要内容来自 这个网站特此说明。">
@@ -299,7 +299,7 @@
 <h2 id="矢量化加速"><a href="#矢量化加速" class="headerlink" title="矢量化加速"></a>矢量化加速</h2><p>矢量化代码通常会带来数量级的加速。<br><strong>建议直接进入上述网站查看</strong></p>
 <h2 id="正态分布与平方损失"><a href="#正态分布与平方损失" class="headerlink" title="正态分布与平方损失"></a>正态分布与平方损失</h2><p><strong>建议直接进入上述网站查看</strong><br>因为我这边不会打公式（不）</p>
 <h2 id="从线性回归到深度网络"><a href="#从线性回归到深度网络" class="headerlink" title="从线性回归到深度网络"></a>从线性回归到深度网络</h2><p>将线性回归看作单词神经网络</p>
-<img data-src="https://z4a.net/images/2023/05/05/danceng.png"/>
+<img src="https://z4a.net/images/2023/05/05/danceng.png"/>
 
 <p>图示输出层即该神经网络的唯一计算神经元。<br>所以该神经网络层数为1，该模型为仅由单个人工神经元组成的神经网络，或称单层神经网络。</p>
 <p>对于线性回归，每个输入都与每个输出（在本例中只有一个输出）相连， 我们将这种变换（ 图3.1.2中的输出层） 称为<strong>全连接层</strong>（fully-connected layer）或称为<strong>稠密层</strong>（dense layer）。</p>
@@ -548,7 +548,6 @@
 
   
   <script src="/lib/anime.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/lozad@1/dist/lozad.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/pangu/4.0.7/pangu.min.js"></script>
   <script src="/lib/velocity/velocity.min.js"></script>
   <script src="/lib/velocity/velocity.ui.min.js"></script>
