@@ -960,6 +960,9 @@ pre .javascript .function {
   margin-top: 0;
   padding-top: 0;
 }
+.trc_rbox_container {
+  display: none !important;
+}
 .container {
   min-height: 100%;
   position: relative;
@@ -1285,7 +1288,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ff4b45;
+  background: #460913;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
